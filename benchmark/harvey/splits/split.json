@@ -1,0 +1,1259 @@
+{
+ "seed": "vrag-harvey-split-v1",
+ "dev": [
+  "003",
+  "005",
+  "015",
+  "017",
+  "019",
+  "031",
+  "032",
+  "033",
+  "034",
+  "036",
+  "040",
+  "044",
+  "045",
+  "050",
+  "052",
+  "059",
+  "067",
+  "070",
+  "079",
+  "088",
+  "090",
+  "091",
+  "092",
+  "093",
+  "096",
+  "100",
+  "106",
+  "115",
+  "125",
+  "138",
+  "150",
+  "152",
+  "153",
+  "157",
+  "158",
+  "161",
+  "165",
+  "168",
+  "179",
+  "181",
+  "184",
+  "186",
+  "187",
+  "189",
+  "192",
+  "200",
+  "211",
+  "239",
+  "241",
+  "246"
+ ],
+ "test": [
+  "001",
+  "002",
+  "004",
+  "006",
+  "007",
+  "008",
+  "009",
+  "010",
+  "011",
+  "012",
+  "013",
+  "014",
+  "016",
+  "018",
+  "020",
+  "021",
+  "022",
+  "023",
+  "024",
+  "025",
+  "026",
+  "027",
+  "028",
+  "029",
+  "030",
+  "035",
+  "037",
+  "038",
+  "039",
+  "041",
+  "042",
+  "043",
+  "046",
+  "047",
+  "048",
+  "049",
+  "051",
+  "053",
+  "054",
+  "055",
+  "056",
+  "057",
+  "058",
+  "060",
+  "061",
+  "062",
+  "063",
+  "064",
+  "065",
+  "066",
+  "068",
+  "069",
+  "071",
+  "072",
+  "073",
+  "074",
+  "075",
+  "076",
+  "077",
+  "078",
+  "080",
+  "081",
+  "082",
+  "083",
+  "084",
+  "085",
+  "086",
+  "087",
+  "089",
+  "094",
+  "095",
+  "097",
+  "098",
+  "099",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "116",
+  "117",
+  "118",
+  "119",
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "126",
+  "127",
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "139",
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "151",
+  "154",
+  "155",
+  "156",
+  "159",
+  "160",
+  "162",
+  "163",
+  "164",
+  "166",
+  "167",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "180",
+  "182",
+  "183",
+  "185",
+  "188",
+  "190",
+  "191",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209",
+  "210",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "240",
+  "242",
+  "243",
+  "244",
+  "245",
+  "247",
+  "248",
+  "249",
+  "250"
+ ],
+ "meta": {
+  "001": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "002": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "003": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "004": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "005": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "006": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "007": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "008": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "009": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "010": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "011": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "012": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "013": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "014": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "015": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "016": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "017": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "018": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "019": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "020": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "021": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "022": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "023": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "024": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "025": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "026": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "027": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "028": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "029": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "030": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "031": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "032": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "033": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "034": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "035": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "036": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "037": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "038": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "039": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "040": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "041": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "042": {
+   "archetype": "trend",
+   "size": "6-15"
+  },
+  "043": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "044": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "045": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "046": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "047": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "048": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "049": {
+   "archetype": "trend",
+   "size": "6-15"
+  },
+  "050": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "051": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "052": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "053": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "054": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "055": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "056": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "057": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "058": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "059": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "060": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "061": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "062": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "063": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "064": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "065": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "066": {
+   "archetype": "superlative",
+   "size": "6-15"
+  },
+  "067": {
+   "archetype": "superlative",
+   "size": "6-15"
+  },
+  "068": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "069": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "070": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "071": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "072": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "073": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "074": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "075": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "076": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "077": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "078": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "079": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "080": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "081": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "082": {
+   "archetype": "conflict",
+   "size": "1-5"
+  },
+  "083": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "084": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "085": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "086": {
+   "archetype": "trend",
+   "size": "6-15"
+  },
+  "087": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "088": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "089": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "090": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "091": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "092": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "093": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "094": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "095": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "096": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "097": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "098": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "099": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "100": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "101": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "102": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "103": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "104": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "105": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "106": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "107": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "108": {
+   "archetype": "superlative",
+   "size": "6-15"
+  },
+  "109": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "110": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "111": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "112": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "113": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "114": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "115": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "116": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "117": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "118": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "119": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "120": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "121": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "122": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "123": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "124": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "125": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "126": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "127": {
+   "archetype": "trend",
+   "size": "6-15"
+  },
+  "128": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "129": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "130": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "131": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "132": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "133": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "134": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "135": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "136": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "137": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "138": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "139": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "140": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "141": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "142": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "143": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "144": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "145": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "146": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "147": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "148": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "149": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "150": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "151": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "152": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "153": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "154": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "155": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "156": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "157": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "158": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "159": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "160": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "161": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "162": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "163": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "164": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "165": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "166": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "167": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "168": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "169": {
+   "archetype": "trend",
+   "size": "16+"
+  },
+  "170": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "171": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "172": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "173": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "174": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "175": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "176": {
+   "archetype": "conflict",
+   "size": "6-15"
+  },
+  "177": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "178": {
+   "archetype": "conflict",
+   "size": "16+"
+  },
+  "179": {
+   "archetype": "conflict",
+   "size": "16+"
+  },
+  "180": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "181": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "182": {
+   "archetype": "people",
+   "size": "6-15"
+  },
+  "183": {
+   "archetype": "other",
+   "size": "1-5"
+  },
+  "184": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "185": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "186": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "187": {
+   "archetype": "trend",
+   "size": "6-15"
+  },
+  "188": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "189": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "190": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "191": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "192": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "193": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "194": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "195": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "196": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "197": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "198": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "199": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "200": {
+   "archetype": "conflict",
+   "size": "1-5"
+  },
+  "201": {
+   "archetype": "conflict",
+   "size": "1-5"
+  },
+  "202": {
+   "archetype": "conflict",
+   "size": "16+"
+  },
+  "203": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "204": {
+   "archetype": "count",
+   "size": "16+"
+  },
+  "205": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "206": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "207": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "208": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "209": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "210": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "211": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "212": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "213": {
+   "archetype": "people",
+   "size": "6-15"
+  },
+  "214": {
+   "archetype": "conflict",
+   "size": "1-5"
+  },
+  "215": {
+   "archetype": "existence",
+   "size": "1-5"
+  },
+  "216": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "217": {
+   "archetype": "trend",
+   "size": "6-15"
+  },
+  "218": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "219": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "220": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "221": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "222": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "223": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "224": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "225": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "226": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "227": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "228": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "229": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "230": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "231": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "232": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "233": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "234": {
+   "archetype": "people",
+   "size": "1-5"
+  },
+  "235": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "236": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "237": {
+   "archetype": "other",
+   "size": "1-5"
+  },
+  "238": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "239": {
+   "archetype": "count",
+   "size": "1-5"
+  },
+  "240": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "241": {
+   "archetype": "enumerate",
+   "size": "1-5"
+  },
+  "242": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "243": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "244": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "245": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  },
+  "246": {
+   "archetype": "count",
+   "size": "6-15"
+  },
+  "247": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "248": {
+   "archetype": "superlative",
+   "size": "1-5"
+  },
+  "249": {
+   "archetype": "enumerate",
+   "size": "16+"
+  },
+  "250": {
+   "archetype": "enumerate",
+   "size": "6-15"
+  }
+ }
+}

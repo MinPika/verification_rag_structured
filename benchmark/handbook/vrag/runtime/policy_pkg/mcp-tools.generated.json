@@ -1,0 +1,231 @@
+{
+ "schema_version": "v1",
+ "tools": [
+  {
+   "name": "overview",
+   "description": "Start here. Compiled map of the company SOP: definitions (business days, time zone, formats), the list of\nprocedures with their triggers, people and who may authorize what, channels, and the hard rules (prohibitions,\nauthority, stop/hold and escalation rules). Then open the procedures that apply with policy__procedure.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+   }
+  },
+  {
+   "name": "procedure",
+   "description": "One SOP procedure (id like 'P3' or a title keyword), as compiled code where available (conditions,\ndeadlines, exceptions and the ordered actions, each line citing its SOP blocks), otherwise as a step-by-step\nplaybook with the exact SOP text, actions, templates, failure handling and rules.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "id"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "find",
+   "description": "Search the SOP (and other policy documents) for a query. Matching passages come back as the compiled code\nthat implements them where available, otherwise as SOP text, with block ids and section. Use\npolicy__read(block_id) for a whole section.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "query": {
+      "type": "string"
+     },
+     "k": {
+      "default": 8,
+      "type": "integer"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "read",
+   "description": "A whole SOP section. ref = a block id (e.g. 'D1.0123': returns its section) or a section number/title\n(e.g. '8.2' or 'Stop Protocol'). Parts compiled to code come back as that code, the rest as exact SOP text.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "ref": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "ref"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "template",
+   "description": "Exact SOP wording for a message/log/document template (id like 'TPL-...' or a keyword). Pass values\n{\"[Placeholder]\": \"value\"} to get the filled text; any placeholder left unfilled is listed.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "values": {
+      "default": null,
+      "anyOf": [
+       {
+        "additionalProperties": true,
+        "type": "object"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     }
+    },
+    "required": [
+     "id"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "rules",
+   "description": "SOP rules (prohibitions, authority, stop/hold, deadlines, thresholds, formats ...). Filter by a keyword, a\nrule kind, or a procedure id; empty query lists all.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "query": {
+      "default": "",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  },
+  {
+   "name": "who",
+   "description": "Look up people, roles, contacts and what each person may authorize, approve or receive.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "query": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "business_days",
+   "description": "Business-day calculator (weekends and SOP holidays excluded). start/end as YYYY-MM-DD. With days: the date\n`days` business days after start (negative = before). With end: number of business days from start to end.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "start": {
+      "type": "string"
+     },
+     "days": {
+      "default": 0,
+      "type": "integer"
+     },
+     "end": {
+      "default": "",
+      "type": "string"
+     }
+    },
+    "required": [
+     "start"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "run",
+   "description": "Execute a compiled SOP procedure on the facts of one case and get the ordered actions the SOP prescribes\n(nothing is performed: you still make the tool calls). function = the function name shown by\npolicy__procedure; case = the keys documented in its docstring; today = YYYY-MM-DD.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "function": {
+      "type": "string"
+     },
+     "case": {
+      "default": null,
+      "anyOf": [
+       {
+        "additionalProperties": true,
+        "type": "object"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "today": {
+      "default": "",
+      "type": "string"
+     }
+    },
+    "required": [
+     "function"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "verify_action",
+   "description": "Run this task's registered SOP checks - the executable code compiled from the SOP that policy__procedure\nand policy__find show - on a tool call you are about to make (e.g. an email, Slack post, Jira change or file\nwrite): tool_name as you would call it (e.g. google_mail__send_email) and its arguments. Nothing is executed\nor sent. Returns OK or the SOP problems with their references and the fix.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "tool_name": {
+      "type": "string"
+     },
+     "arguments": {
+      "additionalProperties": true,
+      "type": "object"
+     }
+    },
+    "required": [
+     "tool_name",
+     "arguments"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "verify_completion",
+   "description": "Run this task's registered SOP end-state checks on everything done so far and list what the SOP still\nrequires (or OK). Useful at the start to see what must be done, and before you finish.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+   }
+  },
+  {
+   "name": "check",
+   "description": "Before an important action, ask the SOP checker whether a proposed tool call (e.g. an email, Slack post,\nJira update or file write) complies with the SOP. Returns problems and the exact fix, or OK. Nothing is\nexecuted.",
+   "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+     "tool_name": {
+      "type": "string"
+     },
+     "arguments": {
+      "additionalProperties": true,
+      "type": "object"
+     }
+    },
+    "required": [
+     "tool_name",
+     "arguments"
+    ],
+    "type": "object"
+   }
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+<!doctype html><html><head><meta charset="utf-8"><title>vrag_harvey</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+:root{--bg:#f5f6f8;--card:#fff;--ink:#1d2330;--mute:#6b7280;--line:#e2e5ea;--acc:#2f6fde;--ok:#137333;--bad:#b3261e;--mid:#b06000}
+*{box-sizing:border-box}html,body{height:100%;margin:0}
+body{font:13.5px/1.45 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);display:flex;flex-direction:column}
+header{flex:0 0 auto;display:flex;align-items:center;gap:2px;background:#1f2a44;color:#fff;padding:0 10px;height:38px;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+header::-webkit-scrollbar{display:none}
+header b{margin-right:14px;font-size:14px}
+header a{color:#cfd6e6;text-decoration:none;padding:6px 10px;border-radius:4px;cursor:pointer}
+header a.on{background:#33415f;color:#fff}header a:hover{color:#fff}
+#app{flex:1 1 auto;min-height:0;display:flex;overflow:hidden}
+#side{flex:0 0 clamp(170px,24vw,300px);border-right:1px solid var(--line);background:#fff;display:flex;flex-direction:column;min-height:0}
+#side .ctl{padding:8px;border-bottom:1px solid var(--line);display:grid;gap:6px}
+#side select,#side input{width:100%;padding:5px 6px;border:1px solid var(--line);border-radius:4px;font:inherit}
+#list{flex:1;overflow:auto}
+.item{display:flex;align-items:center;gap:6px;padding:5px 8px;border-bottom:1px solid #f0f1f4;cursor:pointer}
+.item:hover{background:#eef3fd}.item.on{background:#dfe9fc}
+.item .id{font-weight:600;width:52px}.item .tt{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--mute);font-size:12px}
+.badge{font-size:11px;padding:1px 6px;border-radius:9px;background:#eceff3;min-width:38px;text-align:center}
+.b-ok{background:#d9f2df;color:var(--ok)}.b-mid{background:#fdecd2;color:var(--mid)}.b-bad{background:#fbdcd9;color:var(--bad)}
+.d-up{color:var(--ok);font-size:11px;width:40px;text-align:right}.d-dn{color:var(--bad);font-size:11px;width:40px;text-align:right}.d-0{color:var(--mute);font-size:11px;width:40px;text-align:right}
+#main{flex:1;min-width:0;overflow:auto}
+.bar{position:sticky;top:0;z-index:3;background:var(--bg);border-bottom:1px solid var(--line);padding:6px 14px;display:flex;gap:4px;align-items:center;white-space:nowrap;overflow-x:auto}
+.bar{scrollbar-width:none}.bar::-webkit-scrollbar{display:none}
+.bar button{border:1px solid var(--line);background:#fff;padding:4px 10px;border-radius:4px;cursor:pointer;font:inherit}
+.bar button.on{background:var(--acc);border-color:var(--acc);color:#fff}.bar .sp{flex:1}
+.pane{padding:12px 16px;max-width:1150px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:0 0 10px}
+.muted{color:var(--mute)}.pass{color:var(--ok);font-weight:600}.fail{color:var(--bad);font-weight:600}.split{color:var(--mid);font-weight:600}
+table{border-collapse:collapse;background:#fff}td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top;text-align:left}th{background:#f0f2f6}
+pre{white-space:pre-wrap;word-break:break-word;background:#f3f4f7;padding:8px;border-radius:4px;max-height:380px;overflow:auto;margin:4px 0;font-size:12px}
+details>summary{cursor:pointer;color:#374151}.md h1{font-size:20px}.md h2{font-size:17px;border-bottom:1px solid var(--line);padding-bottom:3px}.md h3{font-size:15px}
+.md table{margin:8px 0}.md code{background:#eef0f4;padding:0 3px;border-radius:3px}.md blockquote{margin:6px 0;padding:4px 10px;border-left:3px solid #c7d2fe;background:#f7f8fd}
+.tag{font-size:11px;padding:1px 6px;border-radius:8px;background:#e3e7ef;margin-left:6px}
+.kbd{font-size:11px;color:var(--mute)}
+@media (max-width:900px){.item .tt{display:none}.item .id{flex:1}.toc{display:none}.pane{padding:8px}header b{display:none}}
+#main{overflow-x:hidden}.pane table{display:block;overflow-x:auto;max-width:100%}
+.toc{position:sticky;top:0;align-self:flex-start;flex:0 0 240px;max-height:100%;overflow:auto;padding:12px;border-right:1px solid var(--line);background:#fff;font-size:12.5px}
+.toc a{display:block;color:#374151;text-decoration:none;padding:2px 0}.toc a:hover{color:var(--acc)}.toc .h3{padding-left:12px;color:var(--mute)}
+</style></head><body>
+<header id="hdr"></header><div id="app"></div>
+<script>
+const D=__DATA__;
+const esc=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const md=s=>window.marked?marked.parse(s||''):'<pre>'+esc(s)+'</pre>';
+const runs=[...new Set(D.trials.map(t=>t.run))];
+const byRun={};D.trials.forEach(t=>{(byRun[t.run]=byRun[t.run]||{})[t.key]=t});
+const DOCV=Object.keys(D.docs);const VIEWS=[...DOCV.slice(0,5),'Trials',...DOCV.slice(5)];
+let S={view:DOCV[0],run:runs[0],cmp:'',key:null,sub:'Summary',q:''};
+try{Object.assign(S,JSON.parse(decodeURIComponent(location.hash.slice(1))||'{}'))}catch(e){}
+if(!VIEWS.includes(S.view))S.view=DOCV[0];
+const save=()=>{history.replaceState(null,'','#'+encodeURIComponent(JSON.stringify(S)))};
+const cls=v=>v>=0.85?'b-ok':v>=0.5?'b-mid':'b-bad';
+const cache={};
+function header(){document.getElementById('hdr').innerHTML='<b>vrag_harvey</b>'+VIEWS.map(v=>`<a class="${v===S.view?'on':''}" onclick="go({view:'${v}'})">${v}</a>`).join('')}
+function go(p){Object.assign(S,p);save();render()}
+function render(){header();const app=document.getElementById('app');
+ if(S.view==='Trials')return trials(app);
+ const html=md(D.docs[S.view]);
+ app.innerHTML=`<nav class="toc" id="toc"></nav><div id="main"><div class="pane md">${html}</div></div>`;
+ const hs=[...app.querySelectorAll('#main h2, #main h3')];hs.forEach((h,i)=>h.id='h'+i);
+ document.getElementById('toc').innerHTML='<b>'+esc(S.view)+'</b>'+hs.map((h,i)=>`<a class="${h.tagName==='H3'?'h3':''}" onclick="document.getElementById('h${i}').scrollIntoView()">${esc(h.textContent)}</a>`).join('')}
+function list(){const ts=Object.values(byRun[S.run]||{}).sort((a,b)=>a.key.localeCompare(b.key));const q=S.q.toLowerCase();
+ return ts.filter(t=>!q||t.key.includes(q)||t.title.toLowerCase().includes(q))}
+function trials(app){
+ app.innerHTML=`<aside id="side"><div class="ctl"><select id="run">${runs.map(r=>`<option value="${esc(r)}" ${r===S.run?'selected':''}>${esc(r)} — ${esc(D.run_info[r]||'')}</option>`).join('')}</select>
+  <select id="cmp"><option value="">compare with… (shows Δ)</option>${runs.filter(r=>r!==S.run).map(r=>`<option value="${esc(r)}" ${r===S.cmp?'selected':''}>${esc(r)} — ${esc(D.run_info[r]||'')}</option>`).join('')}</select>
+  <input id="q" placeholder="filter tasks (id or title)" value="${esc(S.q)}"><div class="kbd">j / k: next / previous task · 1–5: sections</div></div><div id="list"></div></aside><div id="main"></div>`;
+ document.getElementById('run').onchange=e=>go({run:e.target.value,key:null});
+ document.getElementById('cmp').onchange=e=>go({cmp:e.target.value});
+ document.getElementById('q').oninput=e=>{S.q=e.target.value;save();drawList()};
+ drawList();if(!S.key||!byRun[S.run][S.key]){const l=list();S.key=l.length?l[0].key:null}drawTrial()}
+function drawList(){const el=document.getElementById('list');const cmp=S.cmp&&byRun[S.cmp];
+ el.innerHTML=list().map(t=>{let d='';if(cmp){const o=cmp[t.key];if(o){const x=t.crit-o.crit;d=`<span class="${x>0.005?'d-up':x<-0.005?'d-dn':'d-0'}">${x>0?'+':''}${x.toFixed(2)}</span>`}else d='<span class="d-0">–</span>'}
+  return `<div class="item ${t.key===S.key?'on':''}" onclick="go({key:'${t.key}'})"><span class="id">${t.key}</span><span class="tt" title="${esc(t.title)}">${esc(t.title)}</span><span class="badge ${cls(t.crit)}">${t.crit.toFixed(2)}</span>${d}</div>`}).join('')||'<div class="pane muted">no trials</div>';
+ const on=el.querySelector('.on');on&&on.scrollIntoView({block:'nearest'})}
+const SUBS=['Summary','Rubrics','Model calls','FV calls','Response'];
+function verdict(c){const v=Object.values(c.judges).map(j=>j.verdict);return v.every(x=>x==='pass')?'pass':v.every(x=>x==='fail')?'fail':'split'}
+async function detail(t){if(cache[t.url])return cache[t.url];const r=await fetch(t.url);return cache[t.url]=await r.json()}
+async function drawTrial(){const m=document.getElementById('main');const t=byRun[S.run]?.[S.key];
+ if(!t){m.innerHTML='<div class="pane muted">Pick a task on the left.</div>';return}
+ m.innerHTML=`<div class="bar">${SUBS.map((s,i)=>`<button class="${s===S.sub?'on':''}" onclick="go({sub:'${s}'})">${i+1} ${s}</button>`).join('')}<span class="sp"></span><button onclick="step(-1)">◀ prev</button><button onclick="step(1)">next ▶</button></div><div class="pane" id="body"><div class="muted">loading…</div></div>`;
+ let d;try{d=await detail(t)}catch(e){document.getElementById('body').innerHTML='<div class="card fail">Could not load '+esc(t.url)+' — open the page through the http server.</div>';return}
+ if(byRun[S.run]?.[S.key]!==t)return;const b=document.getElementById('body');
+ if(S.sub==='Summary'){const mt=t.metrics||{};const o=S.cmp&&byRun[S.cmp]?.[t.key];
+  b.innerHTML=`<div class="card"><h3 style="margin:0 0 6px">Task ${t.task} · ${esc(t.title)}</h3><div class="md">${md(d.instructions)}</div></div>
+  <div class="card"><b>${esc(t.run)}</b> · ${esc(t.model)} · arm ${t.arm} · <b>criterion ${t.crit.toFixed(2)}</b> · all-pass ${t.ap}${o?` · <span class="muted">${esc(S.cmp)}: ${o.crit.toFixed(2)} / ${o.ap}</span>`:''}<br>
+  <span class="muted">turns ${mt.turn_count} · ${Math.round(mt.wall_clock_seconds||0)} s · prompt tokens ${(mt.input_tokens||0).toLocaleString()} · finish <code>${mt.finish_reason}</code> · verifier calls ${d.fv_calls.length} · ${esc(t.dir)}</span></div>
+  <div class="card"><b>Failed criteria</b>${d.criteria.filter(c=>verdict(c)!=='pass').map(c=>`<div><span class="${verdict(c)}">${verdict(c)}</span> ${c.id} <span class="tag">${c.kind}</span> ${esc(c.title)}</div>`).join('')||' <span class="pass">none</span>'}</div>
+  <div class="card md"><b>Analysis</b>${md(d.analysis||'_not analysed_')}</div>`}
+ if(S.sub==='Rubrics')b.innerHTML=d.criteria.map(c=>`<div class="card"><span class="${verdict(c)}">${verdict(c).toUpperCase()}</span> <b>${c.id}</b><span class="tag">${c.kind}</span> ${esc(c.title)}<div class="muted">${esc(c.match)}</div>${Object.entries(c.judges).map(([j,v])=>`<div>• <b>${j}</b> <span class="${v.verdict}">${v.verdict}</span>: ${esc(v.reasoning)}</div>`).join('')}</div>`).join('');
+ if(S.sub==='Model calls')b.innerHTML=`<div class="card"><b>Task message</b><pre>${esc(d.instructions)}</pre><button onclick="document.querySelectorAll('#body details').forEach(x=>x.open=true)">expand all</button> <button onclick="document.querySelectorAll('#body details').forEach(x=>x.open=false)">collapse all</button></div>`+
+  d.turns.map(tu=>`<div class="card"><b>Turn ${tu.turn}</b>${tu.text?'<div class="md">'+md(tu.text)+'</div>':''}${tu.calls.map(c=>{let a=c.args;try{const j=JSON.parse(a);a=j.command!==undefined&&Object.keys(j).length===1?j.command:JSON.stringify(j,null,1)}catch(e){}const res=tu.results.find(x=>x.id===c.id)||{};
+  return `<details open><summary><b>${esc(c.name)}</b></summary><pre>${esc(a)}</pre></details><details><summary class="muted">result · ${(res.chars||0).toLocaleString()} chars${res.chars>(res.text||'').length?' (first '+res.text.length+' shown)':''}</summary><pre>${esc(res.text)}</pre></details>`}).join('')}${tu.calls.length?'':'<div class="muted">no tool calls — loop ends</div>'}</div>`).join('');
+ if(S.sub==='FV calls')b.innerHTML=d.fv_calls.length?'<div class="card"><table><tr><th>tool</th><th>matter</th><th>field</th><th>asked</th><th>verdict</th><th>actual / note / evidence</th></tr>'+d.fv_calls.map(c=>c.tool==='late_gate'?`<tr><td colspan="6" class="muted">— verification gate: the agent called finish; FV tools shown and verification requested —</td></tr>`:`<tr><td>${esc(c.tool)}</td><td>${esc(c.matter_id||'')}</td><td>${esc(c.field||'')}</td><td>${esc(JSON.stringify(c.asked??''))}</td><td class="${c.verdict==='TRUE'?'pass':['FALSE','NOT_FOUND'].includes(c.verdict)?'fail':'split'}">${esc(c.verdict||'')}</td><td>${esc(JSON.stringify(c.actual??''))} <span class="muted">${esc(c.note||'')}</span>${(c.evidence||[]).map(e=>'<div class=muted>'+esc(e.path||'')+': “'+esc(e.quote||'')+'”</div>').join('')}</td></tr>`).join('')+'</table></div>':'<div class="card muted">No verifier calls in this trial (arm '+t.arm+').</div>';
+ if(S.sub==='Response')b.innerHTML='<div class="card md">'+(d.response==null?'<span class="fail">No response.md was written.</span>':md(d.response))+'</div>'}
+function step(k){const l=list();const i=l.findIndex(t=>t.key===S.key);const n=l[Math.min(l.length-1,Math.max(0,i+k))];if(n)go({key:n.key})}
+document.addEventListener('keydown',e=>{if(S.view!=='Trials'||e.target.tagName==='INPUT'||e.target.tagName==='SELECT')return;
+ if(e.key==='j')step(1);if(e.key==='k')step(-1);const n=+e.key;if(n>=1&&n<=5)go({sub:SUBS[n-1]})});
+render();
+</script></body></html>

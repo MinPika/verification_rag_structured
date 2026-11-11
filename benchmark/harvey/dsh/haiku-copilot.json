@@ -1,0 +1,14 @@
+{
+  "provider": "copilot",
+  "display_name": "Claude Haiku 5.5 (GH Copilot proxy via an OpenAI-compatible SSE facade)",
+  "model": "claude-haiku-5.5",
+  "api": "openai-completions",
+  "base_url": "http://127.0.0.1:3142/v1",
+  "reasoning": "high",
+  "context_window": 600000,
+  "max_tokens": 32000,
+  "input": ["text"],
+  "reasoning_efforts": {"off": "none", "low": "low", "medium": "medium", "high": "high"},
+  "compat": {"supportsDeveloperRole": false, "supportsReasoningEffort": true, "maxTokensField": "max_tokens"},
+  "stream_idle_timeout_ms": 1800000
+}

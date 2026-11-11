@@ -1,0 +1,42 @@
+[project]
+name = "vrag-handbook"
+version = "0.6.0"
+description = "Verification for RAG on HANDBOOK.md: compiled policy KB, task specs and a deterministic interwhen gate"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx",
+    "json-repair",
+    "lxml",
+    "openpyxl",
+    "pdfplumber",
+    "pydantic",
+    "pymupdf",
+    "python-docx",
+    "beautifulsoup4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+include = ["vrag*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["handbook", "runs", "kb", "cache"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+ignore = ["E731"]
+
+[tool.ruff.lint.per-file-ignores]
+# LLM prompt templates: their exact bytes are part of the disk-cache key of every compiled artifact
+"vrag/compile.py" = ["E501"]
+"vrag/guards.py" = ["E501"]
+"vrag/messages.py" = ["E501"]
+"vrag/sopcode.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# podman -> docker shim for lab_core.sandbox on hosts with rootful Docker and no podman.
+# Rootful Docker maps container root to host root; with --cap-drop=ALL that root cannot write to
+# host-owned bind mounts, so `run` gets --user <host uid:gid> (what rootless podman achieves by mapping).
+set -euo pipefail
+case "${1:-}" in
+  machine) exit 0 ;;
+  run) shift; exec docker run --user "$(id -u):$(id -g)" "$@" ;;
+  *) exec docker "$@" ;;
+esac

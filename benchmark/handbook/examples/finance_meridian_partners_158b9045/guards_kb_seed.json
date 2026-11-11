@@ -1,0 +1,519 @@
+{
+ "tier": "kb_seed",
+ "analysis": "There are five unread emails, processed oldest first.\n(1) Email 63: Cascade credit memo CM-38720 for $2,000.00. It references INV-38720, which totals $1,950.00. The credit exceeds the original invoice, so §8.1 Step 2 applies: DISP-HOLD, the prescribed clarification email to the vendor, and the note 'Placed on DISP-HOLD on 09/16/2025 — CM-38720.pdf'.\n(2) Email 61: Pinnacle bank change request. The sender (bmatthews@pinnacleprintsvc.com) does not match the on-file email (bmatthews@pinnacleprint.com). Under §13.2 the agent posts BANK CHANGE REQUEST, then POTENTIAL BEC FRAUD, to #vendor-management. It must not reply, must not update records, and stops there.\n(3) Email 64: Apex INV-2025-09745 against PO-2025-00123. The invoice number differs from earlier invoices, so it is not a duplicate. Invoice quantity 150 is less than GR quantity 300, so it is a partial invoice: log the match as Pass with the partial-invoice note, apply no hold, self-approve ($742.50), and post INVOICE APPROVED to #approvals.\n(4) Email 65: Redwood RF-8125 against PO-2025-00124. Same treatment: quantity 5 is less than GR 10, partial invoice, $1,900.00.\n(5) Email 62: SecureNet legal threat. SNC-2025-001 is on AUDIT hold. Do not pay, do not contact the vendor, do not modify records. Post LEGAL THREAT to #vendor-management.",
+ "plan": [
+  "Credit memo: email ar@cascadeit.com with the body: \"Dear Brian Choi, We received credit memo CM-38720 dated 2025-09-11 for $2,000.00. This amount exceeds the original invoice INV-38720 totaling $1,950.00. We are unable to apply this credit until clarification is received. Please provide a corrected credit memo or written explanation. Meridian Partners Accounts Payable\"",
+  "Credit memo: record DISP-HOLD with the Notes value exactly 'Placed on DISP-HOLD on 09/16/2025 — CM-38720.pdf'.",
+  "Bank change: post to #vendor-management 'BANK CHANGE REQUEST: Pinnacle Print Services, V-00003, Requested by Brian Matthews, Email bmatthews@pinnacleprintsvc.com'.",
+  "Bank change: post to #vendor-management 'POTENTIAL BEC FRAUD: Pinnacle Print Services, V-00003, Sender email bmatthews@pinnacleprintsvc.com, on-file email bmatthews@pinnacleprint.com'.",
+  "Bank change: do NOT reply to the sender. Do NOT change vendor_master bank details.",
+  "Apex INV-2025-09745 (PO-2025-00123, 150 units invoiced vs 300 received): add the next Invoice Register row (1046) and the next Match Log row (MTH-Q3-024) with Result Pass and the note 'Partial invoice – 300 units received, 150 units invoiced. Remaining units: [Z].' Apply no MATCH hold. Post to #approvals 'INVOICE APPROVED: Apex Office Supply, V-00001, Invoice INV-2025-09745, Amount $742.50, PO-2025-00123'.",
+  "Redwood RF-8125 (PO-2025-00124, 5 units invoiced vs 10 received): add Invoice Register row 1047 and Match Log row MTH-Q3-025 with Result Pass and the partial-invoice note. Apply no hold. Post to #approvals 'INVOICE APPROVED: Redwood Furniture Co, V-00021, Invoice RF-8125, Amount $1,900.00, PO-2025-00124'.",
+  "Do NOT post DUPLICATE DETECTED for either INV-2025-09745 or RF-8125.",
+  "SecureNet: post to #vendor-management 'LEGAL THREAT: SecureNet Compliance, V-00011, Invoice SNC-2025-001'.",
+  "SecureNet: do NOT email SecureNet, do NOT pay, and do NOT modify the invoice row."
+ ],
+ "guards": [
+  {
+   "id": "G1",
+   "type": "forbid",
+   "match": {
+    "kinds": [
+     "email_send",
+     "email_reply",
+     "email_forward",
+     "email_draft"
+    ],
+    "to_any": [
+     "bmatthews@pinnacleprintsvc.com",
+     "bmatthews@pinnacleprint-services.com"
+    ]
+   },
+   "message": "§13.2 Step 4: Do NOT respond to the email when the sender does not match the on-file address.",
+   "fix": "Post POTENTIAL BEC FRAUD to #vendor-management only.",
+   "blocks": [
+    "D1.0236"
+   ],
+   "tests": {
+    "violating": [
+     {
+      "kind": "email_reply",
+      "to": [
+       "bmatthews@pinnacleprintsvc.com"
+      ],
+      "cc": [],
+      "subject": "Re: Urgent",
+      "text": "Received",
+      "channel": "",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "compliant": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "POTENTIAL BEC FRAUD: Pinnacle Print Services, V-00003, Sender email bmatthews@pinnacleprintsvc.com, on-file email bmatthews@pinnacleprint.com",
+      "channel": "vendor-management",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "G2",
+   "type": "forbid",
+   "match": {
+    "kinds": [
+     "email_send",
+     "email_reply",
+     "email_forward",
+     "email_draft"
+    ],
+    "to_any": [
+     "billing@securenetcompliance.com",
+     "dowens@securenet.com"
+    ]
+   },
+   "message": "§16.2: Do NOT contact the vendor about an AUDIT hold.",
+   "fix": "Post LEGAL THREAT to #vendor-management. Leave all vendor communication to the Controller.",
+   "blocks": [
+    "D1.0282",
+    "D1.0284"
+   ],
+   "tests": {
+    "violating": [
+     {
+      "kind": "email_reply",
+      "to": [
+       "billing@securenetcompliance.com"
+      ],
+      "cc": [],
+      "subject": "Re: Invoice SNC-2025-001",
+      "text": "We will pay",
+      "channel": "",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "compliant": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "LEGAL THREAT: SecureNet Compliance, V-00011, Invoice SNC-2025-001",
+      "channel": "vendor-management",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "G3",
+   "type": "forbid",
+   "match": {
+    "kinds": [
+     "slack_post"
+    ],
+    "text_rx": "DUPLICATE DETECTED.*(INV-2025-09745|RF-8125)"
+   },
+   "message": "§5.2: Two invoices with different invoice numbers are never duplicates.",
+   "fix": "Process the invoice as a partial PO invoice instead.",
+   "blocks": [
+    "D1.0103"
+   ],
+   "tests": {
+    "violating": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "DUPLICATE DETECTED: Apex Office Supply, V-00001, Invoice INV-2025-09745, Amount $742.50",
+      "channel": "accounts-payable",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "compliant": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "INVOICE APPROVED: Apex Office Supply, V-00001, Invoice INV-2025-09745, Amount $742.50, PO-2025-00123",
+      "channel": "approvals",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  }
+ ],
+ "obligations": [
+  {
+   "id": "O1",
+   "type": "action",
+   "match": {
+    "kinds": [
+     "slack_post"
+    ],
+    "channel": "vendor-management",
+    "text_rx": "BANK CHANGE REQUEST: Pinnacle Print Services, V-00003"
+   },
+   "message": "§13.2 Step 2: the BANK CHANGE REQUEST post is missing.",
+   "fix": "Post 'BANK CHANGE REQUEST: Pinnacle Print Services, V-00003, Requested by Brian Matthews, Email bmatthews@pinnacleprintsvc.com' to #vendor-management.",
+   "blocks": [
+    "D1.0234"
+   ],
+   "tests": {
+    "satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "BANK CHANGE REQUEST: Pinnacle Print Services, V-00003, Requested by Brian Matthews, Email bmatthews@pinnacleprintsvc.com",
+      "channel": "vendor-management",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "not_satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "Pinnacle bank change",
+      "channel": "accounts-payable",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "O2",
+   "type": "action",
+   "match": {
+    "kinds": [
+     "slack_post"
+    ],
+    "channel": "vendor-management",
+    "text_rx": "POTENTIAL BEC FRAUD: Pinnacle Print Services, V-00003.*bmatthews@pinnacleprint\\.com"
+   },
+   "message": "§13.2 Step 4: the sender email does not match the on-file email, so a POTENTIAL BEC FRAUD post is required.",
+   "fix": "Post 'POTENTIAL BEC FRAUD: Pinnacle Print Services, V-00003, Sender email bmatthews@pinnacleprintsvc.com, on-file email bmatthews@pinnacleprint.com' to #vendor-management.",
+   "blocks": [
+    "D1.0236"
+   ],
+   "tests": {
+    "satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "POTENTIAL BEC FRAUD: Pinnacle Print Services, V-00003, Sender email bmatthews@pinnacleprintsvc.com, on-file email bmatthews@pinnacleprint.com",
+      "channel": "vendor-management",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "not_satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "BANK CHANGE REQUEST: Pinnacle Print Services, V-00003",
+      "channel": "vendor-management",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "O3",
+   "type": "action",
+   "match": {
+    "kinds": [
+     "slack_post"
+    ],
+    "channel": "vendor-management",
+    "text_rx": "LEGAL THREAT: SecureNet Compliance, V-00011, Invoice SNC-2025-001"
+   },
+   "message": "§13.1: a vendor legal threat must be escalated to #vendor-management.",
+   "fix": "Post 'LEGAL THREAT: SecureNet Compliance, V-00011, Invoice SNC-2025-001' to #vendor-management.",
+   "blocks": [
+    "D1.0221",
+    "D1.0230"
+   ],
+   "tests": {
+    "satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "LEGAL THREAT: SecureNet Compliance, V-00011, Invoice SNC-2025-001",
+      "channel": "vendor-management",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "not_satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "SecureNet threatening legal",
+      "channel": "accounts-payable",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "O4",
+   "type": "action",
+   "match": {
+    "kinds": [
+     "email_send",
+     "email_reply"
+    ],
+    "to_any": [
+     "ar@cascadeit.com"
+    ],
+    "text_rx": "CM-38720.*exceeds the original invoice INV-38720"
+   },
+   "message": "§8.1 Step 2: the credit ($2,000.00) exceeds the original invoice ($1,950.00), so the vendor must receive the clarification email.",
+   "fix": "Email ar@cascadeit.com using the prescribed DISP-HOLD text.",
+   "blocks": [
+    "D1.0160"
+   ],
+   "tests": {
+    "satisfying": [
+     {
+      "kind": "email_send",
+      "to": [
+       "ar@cascadeit.com"
+      ],
+      "cc": [],
+      "subject": "Credit Memo CM-38720",
+      "text": "Dear Brian Choi, We received credit memo CM-38720 dated 2025-09-11 for $2,000.00. This amount exceeds the original invoice INV-38720 totaling $1,950.00.",
+      "channel": "",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "not_satisfying": [
+     {
+      "kind": "email_send",
+      "to": [
+       "ar@cascadeit.com"
+      ],
+      "cc": [],
+      "subject": "Thanks",
+      "text": "Credit applied",
+      "channel": "",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "O5",
+   "type": "row",
+   "file_rx": "vendor_master\\.xlsx",
+   "where": {
+    "Vendor ID": "^V-00003$"
+   },
+   "expect": {
+    "Bank Name": "^Truliant Federal Credit Union$",
+    "Bank Routing Number": "^253175494$",
+    "Bank Account Number": "^0082-1147-3355$"
+   },
+   "message": "§13.2: do not update vendor_master bank details on an unverified request.",
+   "fix": "Leave or restore the original Truliant bank details for V-00003.",
+   "blocks": [
+    "D1.0233",
+    "D1.0236"
+   ],
+   "enabled": true
+  },
+  {
+   "id": "O6",
+   "type": "action",
+   "match": {
+    "kinds": [
+     "slack_post"
+    ],
+    "channel": "approvals",
+    "text_rx": "INVOICE APPROVED: Apex Office Supply, V-00001, Invoice INV-2025-09745"
+   },
+   "message": "§7.1: a payment of $2,500 or less requires a self-approval confirmation in #approvals.",
+   "fix": "Post 'INVOICE APPROVED: Apex Office Supply, V-00001, Invoice INV-2025-09745, Amount $742.50, PO-2025-00123' to #approvals.",
+   "blocks": [
+    "D1.0144",
+    "D1.0151"
+   ],
+   "tests": {
+    "satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "INVOICE APPROVED: Apex Office Supply, V-00001, Invoice INV-2025-09745, Amount $742.50, PO-2025-00123",
+      "channel": "approvals",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "not_satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "Apex invoice done",
+      "channel": "accounts-payable",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "O7",
+   "type": "action",
+   "match": {
+    "kinds": [
+     "slack_post"
+    ],
+    "channel": "approvals",
+    "text_rx": "INVOICE APPROVED: Redwood Furniture Co, V-00021, Invoice RF-8125"
+   },
+   "message": "§7.1: a payment of $2,500 or less requires a self-approval confirmation in #approvals.",
+   "fix": "Post 'INVOICE APPROVED: Redwood Furniture Co, V-00021, Invoice RF-8125, Amount $1,900.00, PO-2025-00124' to #approvals.",
+   "blocks": [
+    "D1.0144",
+    "D1.0151"
+   ],
+   "tests": {
+    "satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "INVOICE APPROVED: Redwood Furniture Co, V-00021, Invoice RF-8125, Amount $1,900.00, PO-2025-00124",
+      "channel": "approvals",
+      "files": [],
+      "project": ""
+     }
+    ],
+    "not_satisfying": [
+     {
+      "kind": "slack_post",
+      "to": [],
+      "cc": [],
+      "subject": "",
+      "text": "Redwood done",
+      "channel": "approvals",
+      "files": [],
+      "project": ""
+     }
+    ]
+   },
+   "enabled": true
+  },
+  {
+   "id": "O8",
+   "type": "row",
+   "file_rx": "match_log_2025_Q3\\.xlsx",
+   "where": {
+    "Invoice Number": "^INV-2025-09745$"
+   },
+   "expect": {
+    "Result": "^Pass$",
+    "Notes": "Partial invoice"
+   },
+   "message": "§5.1/§6.2: the match attempt must be logged; quantity invoiced is below GR quantity, so this is a partial invoice that passes with the prescribed note.",
+   "fix": "Add a match log row for INV-2025-09745 with Result Pass and the note 'Partial invoice – 300 units received, 150 units invoiced. Remaining units: ...'.",
+   "blocks": [
+    "D1.0088",
+    "D1.0135"
+   ],
+   "enabled": true
+  },
+  {
+   "id": "O9",
+   "type": "row",
+   "file_rx": "match_log_2025_Q3\\.xlsx",
+   "where": {
+    "Invoice Number": "^RF-8125$"
+   },
+   "expect": {
+    "Result": "^Pass$",
+    "Notes": "Partial invoice"
+   },
+   "message": "§5.1/§6.2: the match attempt must be logged; quantity invoiced is below GR quantity, so this is a partial invoice that passes with the prescribed note.",
+   "fix": "Add a match log row for RF-8125 with Result Pass and the partial-invoice note.",
+   "blocks": [
+    "D1.0088",
+    "D1.0135"
+   ],
+   "enabled": true
+  }
+ ],
+ "dropped": [],
+ "open_questions": [],
+ "author": "claude-opus-5.5",
+ "review": {
+  "verdict": "fix",
+  "findings": [
+   {
+    "where": "plan[1]",
+    "severity": "major",
+    "problem": "The required DISP-HOLD note uses a hyphen instead of the prescribed em dash.",
+    "fix": "Use exactly: “Placed on DISP-HOLD on 09/16/2025 — CM-38720.pdf”.",
+    "evidence": "D1.0160 requires “Placed on DISP-HOLD on [MM/DD/YYYY] — [CM FILENAME]”; email 63 names the attachment “CM-38720.pdf” and the clock is 2025-09-16."
+   },
+   {
+    "where": "plan[5]",
+    "severity": "major",
+    "problem": "Calling the two invoices normal PO processing omits mandatory partial-invoice match-log notes and payment-approval confirmations.",
+    "fix": "Create the next Invoice Register and Match Log rows, apply no MATCH hold, use the exact D1.0135 partial-invoice note, self-approve, and post both exact INVOICE APPROVED messages to #approvals.",
+    "evidence": "D1.0088 requires every PO match attempt to be logged; D1.0135 requires the partial-invoice note; D1.0144 requires #approvals confirmation. Email 64 says “Quantity: 150” against PO-2025-00123 with “Qty Ordered 300” and “GR Qty 300”; email 65 says “Quantity: 5” against PO-2025-00124 with “Qty Ordered 10” and “GR Qty 10”."
+   },
+   {
+    "where": "O5",
+    "severity": "major",
+    "problem": "The invariant expects the wrong bank name and does not protect the bank account number, so an unchanged correct row can fail while an account-number change can pass.",
+    "fix": "Expect Bank Name “Truliant Federal Credit Union”, Bank Routing Number “253175494”, and Bank Account Number “0082-1147-3355”; do not write the row.",
+    "evidence": "D1.0233 and D1.0236 prohibit updating vendor_master.xlsx or any records. The V-00003 row states “Truliant Federal Credit Union | 253175494 | 0082-1147-3355”, while O5 expects Bank Name “Truliant” and omits the account number."
+   }
+  ]
+ },
+ "secs": 743
+}

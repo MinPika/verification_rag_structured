@@ -1,0 +1,2607 @@
+{
+ "matter_id": "1039-00005",
+ "client": {
+  "name": "Torchlight Mining Corp.",
+  "aliases": [
+   "Torchlight",
+   "TMC",
+   "the Company"
+  ],
+  "evidence": [
+   {
+    "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+    "quote": "the client in this engagement is **Torchlight Mining Corp.** and not any individual officer, director, employee, agent, or representative of Torchlight"
+   },
+   {
+    "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+    "quote": "on behalf of its client Torchlight Mining Corp. (\"Torchlight\" or \"TMC\")"
+   }
+  ]
+ },
+ "description": "Internal FCPA investigation on behalf of Torchlight Mining Corp. into roughly $4.73M in suspected improper payments to Ganaran officials, made through Crestfield Advisory Partners Ltd. and the company's West African subsidiaries, together with the company's response to parallel SEC and DOJ inquiries.",
+ "counterparties": [
+  "U.S. Securities and Exchange Commission",
+  "U.S. Department of Justice (Fraud Section, FCPA Unit)",
+  "Crestfield Advisory Partners Ltd.",
+  "Marcus Delacroix",
+  "Raymond Osei-Bonsu",
+  "Jean-Philippe Renard"
+ ],
+ "people": {
+  "responsible_partner": "Conrad Ashby",
+  "billing_partner": "Victoria Chambers",
+  "others": [
+   "Steven Hollander (Lead Associate)",
+   "Jasmine Thornton (Working Associate)",
+   "Patricia Sung (client General Counsel)",
+   "Dr. Eleanor Fiske (Audit Committee Chair)",
+   "Dr. Leonard Strauss (forensic accountant, Pinnacle Forensic Advisory)",
+   "Rachel Hartley (e-discovery vendor, Marlowe Asset Management Digital Forensics)",
+   "Richard Bartlett III (Canadian co-counsel, Bartlett Keene & Ostrander LLP)",
+   "Catherine Whitfield (BVI counsel, Hargrove Whitfield LLP)",
+   "Maître Salif Ndong (Ganaran local counsel)",
+   "Helen Whitmore (counsel for Delacroix)",
+   "Emeka Okoro (counsel for Osei-Bonsu)",
+   "Margaret Calloway (DOJ Assistant Chief, FCPA Unit)"
+  ]
+ },
+ "matter_type": null,
+ "practice_areas": [
+  {
+   "value": "white_collar_investigations",
+   "evidence": [
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "quote": "Calderwood & Harkness will staff this engagement with attorneys and other professionals from the Firm's White Collar Defense and Investigations practice."
+    }
+   ]
+  }
+ ],
+ "client_role": [
+  {
+   "value": "regulated_party",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/litigation-hold-notice.docx",
+     "quote": "Torchlight Mining Corp. (\"Torchlight\" or \"TMC,\" NYSE: TRCH; TSX: TMC)... is currently subject to governmental investigations"
+    }
+   ]
+  }
+ ],
+ "opened_date": {
+  "value": "2025-03-05",
+  "evidence": [
+   {
+    "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+    "quote": "The engagement was formalized on March 5, 2025, and the investigation was opened the same day."
+   }
+  ]
+ },
+ "status": {
+  "value": "open",
+  "date": "2025-05-15",
+  "evidence": [
+   {
+    "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+    "quote": "This report presents interim findings only. The investigation is ongoing"
+   }
+  ]
+ },
+ "closed_date": null,
+ "outcome": {
+  "value": "ongoing",
+  "date": "2025-05-15",
+  "detail": "The internal investigation is ongoing; an interim report was drafted for the Audit Committee and the SEC/DOJ inquiries remain pending.",
+  "evidence": [
+   {
+    "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+    "quote": "This report presents interim findings only. The investigation is ongoing"
+   }
+  ]
+ },
+ "relief_sought_by_client": [
+  {
+   "type": "declaratory",
+   "amount": null,
+   "evidence": [
+    {
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "quote": "Confirm that the claim described herein is covered under Policy No. DM-0092-FCPA-2024, subject to the terms and conditions of the Policy."
+    }
+   ]
+  },
+  {
+   "type": "fees_costs",
+   "amount": null,
+   "evidence": [
+    {
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "quote": "so that reimbursement of covered defense costs may commence without undue delay"
+    }
+   ]
+  }
+ ],
+ "terms_executed": [
+  {
+   "key": "interim_report_target_date",
+   "evidence": [
+    {
+     "value": "May 15, 2025",
+     "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+     "stage": "final",
+     "quote": "to prepare the interim investigation report to the Audit Committee (target date: May 15, 2025)"
+    }
+   ]
+  },
+  {
+   "key": "voluntary_self_disclosure_target_date",
+   "evidence": [
+    {
+     "value": "June 30, 2025",
+     "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+     "stage": "final",
+     "quote": "The Audit Committee has established a target decision date of June 30, 2025 for determining whether to make a VSD."
+    }
+   ]
+  }
+ ],
+ "terms_draft_only": [
+  {
+   "key": "actual_payments",
+   "evidence": [
+    {
+     "value": "$3,210,000",
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "stage": "final",
+     "quote": "TGH made total payments to Crestfield of **\\$3,210,000**, disbursed across 24 separate invoices"
+    }
+   ]
+  },
+  {
+   "key": "advisory_agreement",
+   "evidence": [
+    {
+     "value": "Government Relations Advisory Agreement, 2019-04-12",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "Government Relations Advisory Agreement executed between TGH and Crestfield Advisory Partners Ltd."
+    }
+   ]
+  },
+  {
+   "key": "advisory_agreement_fees",
+   "evidence": [
+    {
+     "value": "monthly retainer $15,000; success fee $100,000 per permit; expense cap $25,000/quarter",
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "stage": "draft",
+     "quote": "A monthly retainer of \\$15,000;"
+    }
+   ]
+  },
+  {
+   "key": "advisory_fee_retainer",
+   "evidence": [
+    {
+     "value": "$15,000 monthly retainer",
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "stage": "final",
+     "quote": "a monthly retainer of \\$15,000 (denominated in United States dollars)"
+    }
+   ]
+  },
+  {
+   "key": "anti_corruption_representation",
+   "evidence": [
+    {
+     "value": "general compliance warranty without FCPA reference or audit rights",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "stage": "draft",
+     "quote": "Crestfield warranted its compliance with \"all applicable anti-corruption laws\" in the performance of its services"
+    }
+   ]
+  },
+  {
+   "key": "arbitration",
+   "evidence": [
+    {
+     "value": "AAA Commercial Arbitration Rules, Manhattan, single arbitrator",
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "shall be finally and exclusively resolved by binding arbitration administered by the American Arbitration Association"
+    }
+   ]
+  },
+  {
+   "key": "cash_withdrawals_subtotal",
+   "evidence": [
+    {
+     "value": "$890,000 (42 entries)",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "SECTION B SUBTOTAL — GL 7450 Cash Withdrawals (42 entries)"
+    }
+   ]
+  },
+  {
+   "key": "civil_penalty",
+   "evidence": [
+    {
+     "value": "up to approximately $4,730,000",
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "stage": "final",
+     "quote": "the SEC could seek a penalty up to the gross pecuniary gain, which could match the **\\$4,730,000** disgorgement figure"
+    },
+    {
+     "value": "up to $4,730,000",
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "stage": "final",
+     "quote": "SEC civil penalties have frequently been calculated at an amount equal to the disgorgement, i.e., up to \\$4,730,000"
+    }
+   ]
+  },
+  {
+   "key": "common_interest_agreement",
+   "evidence": [
+    {
+     "value": "Dated March 10, 2025 between Torchlight and Bartlett Keene & Ostrander LLP",
+     "path": "1039-00005/Government Engagement/sec-document-production-cover-letter.docx",
+     "stage": "final",
+     "quote": "Torchlight and its Canadian counsel, Bartlett Keene & Ostrander LLP (Richard Bartlett III, lead partner), have entered into a Common Interest Agreement dated March 10, 2025"
+    }
+   ]
+  },
+  {
+   "key": "crestfield_diversion_estimate",
+   "evidence": [
+    {
+     "value": "$2,410,000",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "Estimated Crestfield Diversion"
+    }
+   ]
+  },
+  {
+   "key": "criminal_fine",
+   "evidence": [
+    {
+     "value": "$9,460,000 baseline",
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "stage": "final",
+     "quote": "\\$4,730,000 × 2 = **\\$9,460,000**"
+    }
+   ]
+  },
+  {
+   "key": "d_and_o_insurance_limits",
+   "evidence": [
+    {
+     "value": "$50 million per occurrence; $100 million aggregate; SIR $2,500,000",
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "stage": "draft",
+     "quote": "Limits: \\$50 million per occurrence; \\$100 million aggregate"
+    }
+   ]
+  },
+  {
+   "key": "d_o_policy_limits",
+   "evidence": [
+    {
+     "value": "$50M per occurrence / $100M aggregate; Retention $2,500,000",
+     "path": "1039-00005/Investigation Planning/investigation-timeline.xlsx",
+     "stage": "draft",
+     "quote": "Policy limits: $50M per occurrence / $100M aggregate. Retention: $2,500,000."
+    }
+   ]
+  },
+  {
+   "key": "dando_insurance",
+   "evidence": [
+    {
+     "value": "$50M per occurrence / $100M aggregate, $2.5M retention",
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "stage": "draft",
+     "quote": "The policy provides coverage of \\$50 million per occurrence and \\$100 million in the aggregate, subject to a \\$2.5 million retention."
+    },
+    {
+     "value": "$50 million per occurrence, $100 million aggregate, $2.5 million retention",
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "stage": "final",
+     "quote": "The policy provides coverage of **\\$50 million per occurrence** and **\\$100 million in the aggregate**. The policy retention (self-insured deductible) is **\\$2.5 million**."
+    }
+   ]
+  },
+  {
+   "key": "disgorgement",
+   "evidence": [
+    {
+     "value": "approximately $4,730,000",
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "stage": "final",
+     "quote": "The SEC may seek disgorgement of the full **\\$4,730,000** in suspected improper payments"
+    },
+    {
+     "value": "$4,730,000",
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "stage": "final",
+     "quote": "estimated disgorgement is \\$4,730,000"
+    }
+   ]
+  },
+  {
+   "key": "dispute_resolution",
+   "evidence": [
+    {
+     "value": "binding AAA arbitration in Manhattan",
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "stage": "unsigned",
+     "quote": "shall be submitted to binding arbitration administered by the American Arbitration Association (\"AAA\")"
+    }
+   ]
+  },
+  {
+   "key": "doj_criminal_fine_estimate",
+   "evidence": [
+    {
+     "value": "$9,460,000",
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "stage": "final",
+     "quote": "we estimate at approximately **\\$9,460,000** under the 2× gain methodology prescribed by the U.S. Sentencing Guidelines"
+    }
+   ]
+  },
+  {
+   "key": "dual_authorization_threshold",
+   "evidence": [
+    {
+     "value": "$50,000",
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "stage": "final",
+     "quote": "which is the single-approval threshold under Torchlight's Delegation of Authority Policy"
+    }
+   ]
+  },
+  {
+   "key": "dup_approval_threshold",
+   "evidence": [
+    {
+     "value": "$50,000",
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "stage": "final",
+     "quote": "the DAP requires dual approval --- by the originating manager and a designated secondary approver --- for any single expenditure exceeding \\$50,000"
+    }
+   ]
+  },
+  {
+   "key": "excess_over_cap",
+   "evidence": [
+    {
+     "value": "$1,170,000",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "EXCESS OVER CONTRACTUAL MAXIMUM"
+    }
+   ]
+  },
+  {
+   "key": "expense_reimbursement",
+   "evidence": [
+    {
+     "value": "capped at $25,000 per calendar quarter",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "stage": "draft",
+     "quote": "capped at \\$25,000 per calendar quarter"
+    }
+   ]
+  },
+  {
+   "key": "expense_reimbursement_cap",
+   "evidence": [
+    {
+     "value": "quarterly cap of $25,000",
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "stage": "draft",
+     "quote": "subject to a quarterly cap of \\$25,000"
+    },
+    {
+     "value": "$25,000 per quarter",
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "stage": "final",
+     "quote": "subject to a quarterly cap of \\$25,000"
+    },
+    {
+     "value": "$25,000 per quarter",
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "stage": "final",
+     "quote": "Quarterly expense reimbursement, capped at \\$25,000 per quarter, upon submission of supporting documentation."
+    },
+    {
+     "value": "$25,000 per quarter",
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "stage": "final",
+     "quote": "expense reimbursement, subject to a cap of \\$25,000 per quarter"
+    },
+    {
+     "value": "$25,000 per quarter",
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "stage": "final",
+     "quote": "Quarterly expense reimbursements, capped at \\$25,000 per quarter."
+    },
+    {
+     "value": "$25,000 per calendar quarter",
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "stage": "final",
+     "quote": "reimbursement of documented out-of-pocket expenses, subject to a cap of \\$25,000 per calendar quarter"
+    },
+    {
+     "value": "$25,000 quarterly",
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "stage": "final",
+     "quote": "Quarterly expense reimbursements capped at \\$25,000."
+    }
+   ]
+  },
+  {
+   "key": "fee_estimate",
+   "evidence": [
+    {
+     "value": "$4,500,000 to $6,200,000",
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "stage": "unsigned",
+     "quote": "Calderwood & Harkness estimates that total professional fees for the engagement will range from approximately **\\$4,500,000 to \\$6,200,000**"
+    },
+    {
+     "value": "$1,800,000 to $2,400,000",
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "Pinnacle estimates that total professional fees for the Engagement will be in the range of **\\$1,800,000 to \\$2,400,000**"
+    },
+    {
+     "value": "$4.5 million to $6.2 million",
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "stage": "draft",
+     "quote": "The total estimated fees for the C&H engagement --- encompassing both the SEC subpoena response and the internal investigation --- are approximately \\$4.5 million to \\$6.2 million"
+    }
+   ]
+  },
+  {
+   "key": "fee_structure",
+   "evidence": [
+    {
+     "value": "Rates per custodian/device, per gigabyte, per document/page, hourly, no fee cap",
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "No specific fee cap or not-to-exceed amount is established by this Agreement."
+    }
+   ]
+  },
+  {
+   "key": "governing_law",
+   "evidence": [
+    {
+     "value": "Mauritius",
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "stage": "final",
+     "quote": "Clause 14 of the Agreement provides that the Agreement is governed by the laws of Mauritius."
+    },
+    {
+     "value": "New York law, with Ontario law for Canadian privilege issues",
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "stage": "unsigned",
+     "quote": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York"
+    },
+    {
+     "value": "New York",
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "shall be governed by and construed in accordance with the laws of the State of New York"
+    }
+   ]
+  },
+  {
+   "key": "government_relations_advisory_agreement",
+   "evidence": [
+    {
+     "value": "Agreement between TGH and Crestfield Advisory Partners Ltd. dated April 12, 2019",
+     "path": "1039-00005/Government Engagement/sec-document-production-cover-letter.docx",
+     "stage": "final",
+     "quote": "The Government Relations Advisory Agreement between TGH and Crestfield Advisory Partners Ltd. (\"Crestfield\"), dated April 12, 2019"
+    },
+    {
+     "value": "$15,000/month retainer; $100,000 success fee per permit obtained; expense reimbursement capped at $25,000/quarter",
+     "path": "1039-00005/Investigation Planning/investigation-timeline.xlsx",
+     "stage": "draft",
+     "quote": "Terms: $15,000/month retainer; $100,000 success fee per permit obtained; expense reimbursement capped at $25,000/quarter."
+    }
+   ]
+  },
+  {
+   "key": "grand_total_outflows",
+   "evidence": [
+    {
+     "value": "$4,730,000",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "GRAND TOTAL — ALL OUTFLOWS IN INVESTIGATION SCOPE"
+    }
+   ]
+  },
+  {
+   "key": "hourly_rates",
+   "evidence": [
+    {
+     "value": "schedule in Exhibit A",
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "stage": "unsigned",
+     "quote": "A schedule of current hourly rates for the principal members of the engagement team and other timekeeper categories is attached hereto as **Exhibit A**"
+    }
+   ]
+  },
+  {
+   "key": "in_kind_benefits_subtotal",
+   "evidence": [
+    {
+     "value": "$630,000 (21 entries)",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "SECTION B SUBTOTAL — In-Kind Benefit Payments (21 entries)"
+    }
+   ]
+  },
+  {
+   "key": "indemnification",
+   "evidence": [
+    {
+     "value": "TGH indemnifies directors except for willful misconduct, fraud, or dishonesty",
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "stage": "final",
+     "quote": "TGH shall indemnify its directors and former directors against all liabilities, losses, damages, costs, and expenses (including legal fees) incurred in their capacity as directors, except in cases of willful misconduct, fraud, or dishonesty."
+    }
+   ]
+  },
+  {
+   "key": "insurance_requirement",
+   "evidence": [
+    {
+     "value": "$5,000,000 per occurrence / $10,000,000 aggregate",
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "professional liability (errors and omissions) insurance coverage with limits of not less than Five Million Dollars (\\$5,000,000) per occurrence and Ten Million Dollars (\\$10,000,000) in the aggregate"
+    }
+   ]
+  },
+  {
+   "key": "legitimate_crestfield_services",
+   "evidence": [
+    {
+     "value": "$800,000",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "Estimated Legitimate Crestfield Services"
+    }
+   ]
+  },
+  {
+   "key": "liability_cap",
+   "evidence": [
+    {
+     "value": "approximately $2,040,000",
+     "path": "1039-00005/Correspondence/Experts/email-pinnacle-work-plan-coordination.eml",
+     "stage": "not_applicable",
+     "quote": "**Contractual maximum: approximately $2,040,000**"
+    },
+    {
+     "value": "$2,040,000",
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "stage": "final",
+     "quote": "**Contractual maximum**                                    **\\$2,040,000**"
+    },
+    {
+     "value": "$2,040,000",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "CONTRACTUAL MAXIMUM: Retainers ($15,000/mo × 66 mos = $990,000) + Success Fees ($100,000 × 5 = $500,000) + Expense Cap ($25,000/qtr × 22 qtrs = $550,000)"
+    },
+    {
+     "value": "capped at 12 months' fees except for gross negligence, willful misconduct, or breach of confidentiality/data security",
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "the aggregate liability of either party to the other under this Agreement shall not exceed the total fees paid or payable by C&H to Marlowe Asset Management under this Agreement during the twelve (12) month period preceding the event giving rise to the claim"
+    },
+    {
+     "value": "capped at fees paid",
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "stage": "unsigned",
+     "quote": "shall not exceed the total amount of professional fees actually paid by the Company to Calderwood & Harkness in connection with this engagement"
+    }
+   ]
+  },
+  {
+   "key": "management_fee",
+   "evidence": [
+    {
+     "value": "$15,000 monthly retainer payable in arrears",
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "stage": "final",
+     "quote": "A monthly retainer of \\$15,000 (United States Dollars), payable in arrears"
+    }
+   ]
+  },
+  {
+   "key": "no_competitive_selection",
+   "evidence": [
+    {
+     "value": "No competitive bidding process",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "stage": "draft",
+     "quote": "No competitive selection; Renard personally introduced by Delacroix"
+    }
+   ]
+  },
+  {
+   "key": "payment_terms",
+   "evidence": [
+    {
+     "value": "net 30 days",
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "Payment terms shall be net thirty (30) days from C&H\\'s receipt of a properly submitted invoice."
+    }
+   ]
+  },
+  {
+   "key": "per_occurrence_limit",
+   "evidence": [
+    {
+     "value": "$50,000,000",
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "stage": "final",
+     "quote": "Per-Occurrence Limit of Liability   \\$50,000,000"
+    }
+   ]
+  },
+  {
+   "key": "policy_limit",
+   "evidence": [
+    {
+     "value": "$50,000,000 per occurrence / $100,000,000 aggregate, $2,500,000 SIR",
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "stage": "unsigned",
+     "quote": "limits of **\\$50,000,000 per occurrence** and **\\$100,000,000 in the aggregate**, subject to a self-insured retention of **\\$2,500,000**"
+    },
+    {
+     "value": "$100,000,000",
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "stage": "final",
+     "quote": "Aggregate Limit of Liability        \\$100,000,000"
+    },
+    {
+     "value": "$50M per occurrence / $100M aggregate, $2.5M SIR",
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "stage": "final",
+     "quote": "limits of \\$50 million per occurrence and \\$100 million in the aggregate, subject to a self-insured retention of \\$2.5 million"
+    }
+   ]
+  },
+  {
+   "key": "policy_period",
+   "evidence": [
+    {
+     "value": "January 1, 2024 - January 1, 2025",
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "stage": "final",
+     "quote": "Policy Period                       January 1, 2024 -- January 1, 2025 (with extended reporting period provisions)"
+    }
+   ]
+  },
+  {
+   "key": "privilege_protection",
+   "evidence": [
+    {
+     "value": "sharing does not waive attorney-client/work product privilege",
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "stage": "unsigned",
+     "quote": "the sharing of Common Interest Materials pursuant to this Agreement shall not constitute a waiver of the attorney-client privilege"
+    }
+   ]
+  },
+  {
+   "key": "retainer",
+   "evidence": [
+    {
+     "value": "$15,000 per month",
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "stage": "draft",
+     "quote": "A fixed monthly retainer of \\$15,000 per month for the duration of the engagement"
+    },
+    {
+     "value": "$15,000 per month",
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "stage": "final",
+     "quote": "Clause 4.1 provides for a monthly retainer of \\$15,000 payable to Crestfield"
+    },
+    {
+     "value": "$15,000 per month",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "stage": "draft",
+     "quote": "Monthly Retainer:** \\$15,000 per month, payable within 30 days of invoice submission"
+    },
+    {
+     "value": "no advance retainer required",
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "stage": "unsigned",
+     "quote": "No advance retainer is required in connection with this engagement."
+    },
+    {
+     "value": "$15,000 per month",
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "stage": "final",
+     "quote": "a monthly retainer of \\$15,000 per month"
+    },
+    {
+     "value": "$15,000 USD/month",
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "stage": "final",
+     "quote": "A monthly retainer fee of \\$15,000 (United States dollars);"
+    },
+    {
+     "value": "$15,000",
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "stage": "final",
+     "quote": "A monthly retainer of \\$15,000;"
+    }
+   ]
+  },
+  {
+   "key": "self_insured_retention",
+   "evidence": [
+    {
+     "value": "$2,500,000",
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "stage": "final",
+     "quote": "Self-Insured Retention (\"SIR\")    \\$2,500,000"
+    }
+   ]
+  },
+  {
+   "key": "signatory_authority_threshold",
+   "evidence": [
+    {
+     "value": "$250,000 single-signatory for Delacroix vs $100,000 for Fournier",
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "stage": "final",
+     "quote": "Mr. Delacroix’s single-signatory authority was set at \\$250,000 --- two-and-a-half times the \\$100,000 threshold previously established for Diane Fournier."
+    }
+   ]
+  },
+  {
+   "key": "success_fee",
+   "evidence": [
+    {
+     "value": "$100,000 per permit obtained",
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "stage": "draft",
+     "quote": "A success fee of \\$100,000 per permit obtained, payable upon the successful issuance of each mining permit"
+    },
+    {
+     "value": "$100,000 per permit/license/approval obtained",
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "stage": "final",
+     "quote": "Success fees of \\$100,000 per mining permit, exploration license, or environmental approval obtained with Crestfield’s assistance"
+    },
+    {
+     "value": "$100,000 per permit obtained",
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "stage": "draft",
+     "quote": "Success Fees:** \\$100,000 per permit obtained, payable upon the issuance of each mining permit"
+    },
+    {
+     "value": "$100,000 per permit obtained, $500,000 total across five permits",
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "stage": "final",
+     "quote": "\"success fees\" of \\$100,000 per permit obtained, applied across the five permits identified in Section IV (\\$100,000 × 5 permits = \\$500,000 in total success fees)"
+    },
+    {
+     "value": "$100,000 per permit",
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "stage": "final",
+     "quote": "Success fees of \\$100,000 per mining permit or regulatory approval obtained with Crestfield\\'s assistance"
+    },
+    {
+     "value": "$100,000 per permit",
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "stage": "final",
+     "quote": "success fees of \\$100,000 per mining or environmental permit obtained"
+    },
+    {
+     "value": "$100,000 per permit obtained",
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "stage": "final",
+     "quote": "Success fees of \\$100,000 per permit obtained; and"
+    }
+   ]
+  },
+  {
+   "key": "termination_notice",
+   "evidence": [
+    {
+     "value": "90 days without cause; 30-day cure for material breach",
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "stage": "final",
+     "quote": "The clause permits either party to terminate the Agreement upon 90 days’ prior written notice without cause."
+    },
+    {
+     "value": "30 days' written notice",
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "Either party may terminate this Agreement upon thirty (30) days\\' prior written notice to the other party."
+    },
+    {
+     "value": "30 days",
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "stage": "unsigned",
+     "quote": "termination by either party upon thirty (30) days\\' prior written notice to the other party"
+    }
+   ]
+  },
+  {
+   "key": "termination_right",
+   "evidence": [
+    {
+     "value": "terminates on mutual agreement, resolution of Proceedings, or Torchlight direction",
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "stage": "unsigned",
+     "quote": "the final resolution of all Proceedings, including the exhaustion of all appeals, the expiration of all applicable statutes of limitation"
+    }
+   ]
+  },
+  {
+   "key": "use_limitation",
+   "evidence": [
+    {
+     "value": "materials usable solely for Torchlight representation in the Proceedings",
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "stage": "unsigned",
+     "quote": "Common Interest Materials may be used solely for the purpose of providing legal advice and representation to Torchlight Mining Corp. in connection with the Proceedings"
+    }
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "key": "board_oversight_deficiency",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "The failure to extend automated dual-approval controls to the BVI subsidiary is a material internal controls deficiency."
+    }
+   ]
+  },
+  {
+   "key": "breach_of_fiduciary_duty",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "depth": "mentioned",
+     "quote": "One or more shareholders may file derivative actions, purportedly on behalf of Torchlight, against individual directors and officers alleging breaches of fiduciary duty"
+    }
+   ]
+  },
+  {
+   "key": "bribery_of_government_officials",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Private dinner — Minister Diallo"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-kwame-mensah.docx",
+     "depth": "analysed",
+     "quote": "Mensah identified three specific vehicle purchases that he understood were directed to Col. Ibrahim Konaté, the Regional Prefect of Kousseri Province."
+    }
+   ]
+  },
+  {
+   "key": "cash_withdrawals_community_relations",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "analysed",
+     "quote": "\\$890,000 in cash withdrawals from TGM\\'s local bank account at Regency International Bank, Ganara"
+    }
+   ]
+  },
+  {
+   "key": "clawback_of_compensation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Reports/remediation-recommendations-memo.docx",
+     "depth": "analysed",
+     "quote": "Calderwood & Harkness recommends that Torchlight evaluate the feasibility of clawing back any incentive compensation, bonuses, or equity awards paid to Delacroix and Osei-Bonsu"
+    }
+   ]
+  },
+  {
+   "key": "conflict_of_interest_nondisclosure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "analysed",
+     "quote": "No disclosure by Marcus Delacroix of any personal relationship with Jean-Philippe Renard was located in the minute book in connection with the Crestfield engagement authorization or at any subsequent time."
+    }
+   ]
+  },
+  {
+   "key": "contractual_overage",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "analysed",
+     "quote": "**Overage**                                                             **\\$1,170,000**"
+    }
+   ]
+  },
+  {
+   "key": "corporate_criminal_liability",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "the Republic of Ganara enacted amendments to its Penal Code in 2015 that introduced the principle of corporate criminal liability"
+    }
+   ]
+  },
+  {
+   "key": "cross_border_data_transfer",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "depth": "mentioned",
+     "quote": "such collection would be subject to the European Union's General Data Protection Regulation (\"GDPR\")"
+    }
+   ]
+  },
+  {
+   "key": "d_j_preservation_request",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-nadia-berenson.docx",
+     "depth": "mentioned",
+     "quote": "the DOJ's voluntary document preservation request, dated February 14, 2025."
+    }
+   ]
+  },
+  {
+   "key": "data_breach_notification",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "depth": "mentioned",
+     "quote": "Marlowe Asset Management shall notify C&H in writing within twenty-four (24) hours of the discovery of any actual or suspected data breach"
+    }
+   ]
+  },
+  {
+   "key": "delegation_of_authority_breakdown",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-nadia-berenson.docx",
+     "depth": "analysed",
+     "quote": "fourteen of twenty-four Crestfield invoices exceeding the \\$50,000 threshold had been approved solely by Raymond Osei-Bonsu, without the required secondary authorization."
+    }
+   ]
+  },
+  {
+   "key": "delegation_of_authority_gap",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "analysed",
+     "quote": "the Torchlight parent-level Delegation of Authority Policy, which sets a \\$50,000 single-approval threshold for expenditures at the subsidiary level, was not referenced in either the original or supplemental banking resolutions"
+    }
+   ]
+  },
+  {
+   "key": "delegation_of_authority_noncompliance",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-kwame-mensah.docx",
+     "depth": "analysed",
+     "quote": "Mensah stated that he was not aware of Torchlight Mining Corp.'s global Delegation of Authority Policy"
+    }
+   ]
+  },
+  {
+   "key": "delegation_of_authority_violation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+     "depth": "mentioned",
+     "quote": "Sole approver on 14 of 24 Crestfield invoices exceeding $50,000 single-approval threshold (Delegation of Authority Policy violation)."
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "depth": "analysed",
+     "quote": "invoices exceeding the \\$50,000 single-approval threshold were approved by Osei-Bonsu alone without obtaining the required dual authorization"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "depth": "analysed",
+     "quote": "the invoices were approved solely by Mr. Osei-Bonsu in virtually all cases"
+    }
+   ]
+  },
+  {
+   "key": "director_indemnification_fraud_exception",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "mentioned",
+     "quote": "the fraud and dishonesty exception to the indemnification clause may apply, potentially relieving TGH of any obligation to indemnify him"
+    }
+   ]
+  },
+  {
+   "key": "doj_inquiry",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "depth": "analysed",
+     "quote": "The DOJ Fraud Section, Criminal Division, FCPA Unit has initiated a preliminary inquiry into the matters described in Section 2.1."
+    }
+   ]
+  },
+  {
+   "key": "doj_investigation",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "mentioned",
+     "quote": "DOJ Fraud Section sends voluntary document preservation request (Asst. Chief Margaret Calloway, FCPA Unit)"
+    }
+   ]
+  },
+  {
+   "key": "doj_sec_inquiry",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Correspondence/Counsel/osei-bonsu-counsel-coordination-letter.eml",
+     "depth": "mentioned",
+     "quote": "inquiries by the U.S. Departme=\nnt of Justice and the U.S. Securities and Exchange Commission (File No. HO-14=\n892)"
+    }
+   ]
+  },
+  {
+   "key": "dual_approval_anomaly",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "mentioned",
+     "quote": "One of few with dual approval"
+    }
+   ]
+  },
+  {
+   "key": "due_diligence_failure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "No due diligence file on Crestfield exists in Torchlight\\'s compliance records"
+    }
+   ]
+  },
+  {
+   "key": "extradition",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "France historically does not extradite its own nationals."
+    }
+   ]
+  },
+  {
+   "key": "extraterritorial_jurisdiction",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Ganaran criminal jurisdiction is based principally on the principle of territoriality (*principe de territorialité*)"
+    }
+   ]
+  },
+  {
+   "key": "faster_than_average_permit_issuance",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "issued ~4 months faster than statutory average"
+    }
+   ]
+  },
+  {
+   "key": "fcpa_anti_corruption",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Correspondence/Counsel/osei-bonsu-counsel-coordination-letter.eml",
+     "depth": "analysed",
+     "quote": "The investigation r=\nelates to potential violations of the U.S. Foreign Corrupt Practices Act (\"FC=\nPA\")"
+    },
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "Torchlight is subject to the FCPA's anti-bribery provisions (Section 78dd-1)"
+    },
+    {
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "depth": "analysed",
+     "quote": "Section 78dd-1 prohibits the making of payments to foreign officials for the purpose of influencing official acts"
+    },
+    {
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "depth": "mentioned",
+     "quote": "the Canadian Corruption of Foreign Public Officials Act (\"CFPOA\"), and Ganaran law"
+    },
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act (\"FCPA\"), 15 U.S.C. §§ 78dd-1 et seq., by Torchlight and its subsidiaries"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "evidence strongly supports potential violations based on the systematic mischaracterization of payments in TGH's and TGM's books and records"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "the evidence strongly supports potential violations based on multiple, overlapping failures of Torchlight's internal accounting controls"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "Torchlight may face exposure under the Corruption of Foreign Public Officials Act (\"CFPOA\"), Canada's anti-corruption statute"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act (\"FCPA\"), 15 U.S.C. §§ 78dd-1 *et seq.*"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Allegations: payments to government ministers through intermediary consulting company; country manager and VP from Toronto both aware"
+    },
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The U.S. DOJ and SEC investigations address potential violations of the Foreign Corrupt Practices Act of 1977, as amended"
+    },
+    {
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act of 1977, as amended (the \"**FCPA**\"), related to Torchlight's West African operations in the Republic of Ganara"
+    },
+    {
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "depth": "analysed",
+     "quote": "Torchlight, as a Canadian corporation with securities listed on the Toronto Stock Exchange, faces potential exposure under the Corruption of Foreign Public Officials Act"
+    },
+    {
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act of 1977, as amended, 15 U.S.C. §§ 78dd-1 *et seq.* (the \\\"FCPA\\\"), involving Torchlight\\'s West African mining operations in the Republic of Ganara"
+    },
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the U.S. Foreign Corrupt Practices Act of 1977, as amended, 15 U.S.C. §§ 78dd-1 *et seq.*"
+    },
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "depth": "mentioned",
+     "quote": "the Company's potential exposure under the *Corruption of Foreign Public Officials Act*, S.C. 1998, c. 34 (\"CFPOA\")"
+    },
+    {
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "depth": "analysed",
+     "quote": "These payments are suspected to have been made in potential violation of the anti-bribery and books-and-records provisions of the FCPA."
+    },
+    {
+     "path": "1039-00005/Government Engagement/doj-preservation-response-letter.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act of 1977, as amended, 15 U.S.C. §§ 78dd-1 *et seq*. (the \"FCPA\")"
+    },
+    {
+     "path": "1039-00005/Government Engagement/privilege-log.xlsx",
+     "depth": "analysed",
+     "quote": "Memorandum analyzing potential violations of FCPA books and records (Section 13(b)(2)(A)) and internal controls (Section 13(b)(2)(B)) provisions based on mischaracterization of payments"
+    },
+    {
+     "path": "1039-00005/Government Engagement/sec-document-production-cover-letter.docx",
+     "depth": "analysed",
+     "quote": "authorizing a formal investigation into potential violations of the Foreign Corrupt Practices Act of 1977, as amended, 15 U.S.C. §§ 78dd-1 et seq. (the \"FCPA\")"
+    },
+    {
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act of 1977, as amended (the \"FCPA\")"
+    },
+    {
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "depth": "analysed",
+     "quote": "Sections 13(b)(2)(A) and 13(b)(2)(B) of the Exchange Act"
+    },
+    {
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "depth": "mentioned",
+     "quote": "Torchlight's potential exposure under the Corruption of Foreign Public Officials Act (\"CFPOA\")"
+    },
+    {
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Torchlight, as an \"issuer\" with ADRs listed on the NYSE, is subject to the anti-bribery provisions of the FCPA"
+    },
+    {
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "Torchlight, as a Canadian corporation, is also potentially subject to the Corruption of Foreign Public Officials Act"
+    },
+    {
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "depth": "analysed",
+     "quote": "concerns potential violations of the Foreign Corrupt Practices Act of 1977, as amended, 15 U.S.C. §§ 78dd-1 *et seq.* (the \"FCPA\")"
+    },
+    {
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "depth": "mentioned",
+     "quote": "Potential proceedings under the *Corruption of Foreign Public Officials Act*, S.C. 1998, c. 34 (\"CFPOA\"), by Canadian authorities."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "depth": "analysed",
+     "quote": "FCPA Anti-Bribery Provisions (15 U.S.C. §§ 78dd-1, 78dd-2, 78dd-3)."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "depth": "analysed",
+     "quote": "FCPA Books and Records Provisions (Section 13(b)(2)(A) of the Securities Exchange Act of 1934)."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "depth": "analysed",
+     "quote": "FCPA Internal Controls Provisions (Section 13(b)(2)(B) of the Securities Exchange Act of 1934)."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "depth": "analysed",
+     "quote": "Canadian Corruption of Foreign Public Officials Act (\"CFPOA\")."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-timeline.xlsx",
+     "depth": "analysed",
+     "quote": "Investigation encompasses books and records (Section 13(b)(2)(A)) and internal controls (Section 13(b)(2)(B)) provisions as well as anti-bribery provisions."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/litigation-hold-notice.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act of 1977, as amended (\"FCPA\"), 15 U.S.C. §§ 78dd-1 et seq. and 15 U.S.C. §§ 78m(b)(2), (b)(5)"
+    },
+    {
+     "path": "1039-00005/Investigation Planning/litigation-hold-notice.docx",
+     "depth": "mentioned",
+     "quote": "The investigations encompass both the anti-bribery provisions and the books-and-records and internal-controls provisions of the FCPA."
+    },
+    {
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the U.S. Foreign Corrupt Practices Act (\"FCPA\") and related anti-corruption laws"
+    },
+    {
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "depth": "analysed",
+     "quote": "The FCPA books and records provisions, 15 U.S.C. § 78m(b)(2)(A)"
+    },
+    {
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "depth": "analysed",
+     "quote": "The FCPA internal controls provisions, 15 U.S.C. § 78m(b)(2)(B)"
+    },
+    {
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "depth": "mentioned",
+     "quote": "Canadian Corruption of Foreign Public Officials Act (\"CFPOA\"), S.C. 1998, c. 34"
+    },
+    {
+     "path": "1039-00005/Reports/remediation-recommendations-memo.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the Foreign Corrupt Practices Act of 1977, as amended (the \"FCPA\"), in connection with Torchlight Mining Corp.’s"
+    },
+    {
+     "path": "1039-00005/Reports/remediation-recommendations-memo.docx",
+     "depth": "analysed",
+     "quote": "the FCPA’s books-and-records provision (Section 13(b)(2)(A))"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "analysed",
+     "quote": "the company's internal investigation into potential violations of the United States Foreign Corrupt Practices Act and related laws and regulations"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-kwame-mensah.docx",
+     "depth": "analysed",
+     "quote": "Mensah stated that he did not recall any specific discussion of the U.S. Foreign Corrupt Practices Act (\"FCPA\")"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-nadia-berenson.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the U.S. Foreign Corrupt Practices Act (\"FCPA\"), the Canadian Corruption of Foreign Public Officials Act (\"CFPOA\"), and potentially other anti-corruption statutes."
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "depth": "analysed",
+     "quote": "payments being made to government ministers through a fake consulting company in Mauritius to get mining permits approved faster"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "depth": "analysed",
+     "quote": "potential violations of the FCPA, including both the anti-bribery provisions and the books-and-records and internal controls provisions"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+     "depth": "analysed",
+     "quote": "the internal investigation into potential violations of the Foreign Corrupt Practices Act (\"FCPA\"), 15 U.S.C. §§ 78dd-1 et seq."
+    },
+    {
+     "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+     "depth": "mentioned",
+     "quote": "potential exposure under the Corruption of Foreign Public Officials Act (S.C. 1998, c. 34) (\"CFPOA\")"
+    }
+   ]
+  },
+  {
+   "key": "fifth_amendment_concerns",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+     "depth": "mentioned",
+     "quote": "Voluntary interview declined April 2, 2025 citing Fifth Amendment concerns."
+    }
+   ]
+  },
+  {
+   "key": "fifth_amendment_privilege",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+     "depth": "analysed",
+     "quote": "If a witness --- particularly a former employee --- invokes the Fifth Amendment privilege against self-incrimination"
+    }
+   ]
+  },
+  {
+   "key": "foreign_bank_records_court_order",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+     "depth": "analysed",
+     "quote": "Regency International Bank (Account GAN-4419-8837) records require local court order in Republic of Ganara for production."
+    }
+   ]
+  },
+  {
+   "key": "foreign_bribery_ganaran_law",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Article 314 --- Active Corruption (*Corruption Active*)"
+    }
+   ]
+  },
+  {
+   "key": "foreign_data_privacy_laws",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Government Engagement/sec-document-production-cover-letter.docx",
+     "depth": "mentioned",
+     "quote": "any applicable foreign data privacy laws, data protection regulations, or blocking statutes, including without limitation the data privacy laws of the British Virgin Islands, the Republic of Ganara, and Canada"
+    }
+   ]
+  },
+  {
+   "key": "foreign_law_exposure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Government Engagement/privilege-log.xlsx",
+     "depth": "analysed",
+     "quote": "potential mining license revocation risk, and applicable Ganaran anti-corruption statutes"
+    }
+   ]
+  },
+  {
+   "key": "gdpr_cross_border_data",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+     "depth": "analysed",
+     "quote": "French data privacy (GDPR) considerations apply given Delacroix's current residence in Lyon, France."
+    }
+   ]
+  },
+  {
+   "key": "gift_and_hospitality_policy_violation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "None of the vehicle purchases or travel arrangements identified in this review were submitted for pre-clearance"
+    }
+   ]
+  },
+  {
+   "key": "gift_hospitality_tracking_failure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "The gift and hospitality tracking system described in the Global Anti-Corruption Policy was not implemented or enforced at the TGM level."
+    }
+   ]
+  },
+  {
+   "key": "hold_acknowledgment_device_collection",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+     "depth": "analysed",
+     "quote": "Litigation hold notice forwarded to personal counsel Whitmore & Sharpe LLP on March 17, 2025. No acknowledgment received."
+    }
+   ]
+  },
+  {
+   "key": "in_kind_benefits_officials",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "mentioned",
+     "quote": "approximately \\$630,000 in expenditures booked across GL 7200 and GL 7310"
+    }
+   ]
+  },
+  {
+   "key": "inadequate_supporting_documentation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "depth": "analysed",
+     "quote": "Mr. Osei-Bonsu told Mr. Achebe that supporting documentation would \"follow later.\""
+    }
+   ]
+  },
+  {
+   "key": "incentive_misalignment",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "The absence of a compliance gate in the bonus payment process is a design deficiency that should be addressed in the remediation plan."
+    }
+   ]
+  },
+  {
+   "key": "individual_liability_13b5",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Section 13(b)(5), codified at 15 U.S.C. § 78m(b)(5), provides that no person shall knowingly circumvent or knowingly fail to implement a system of internal accounting controls"
+    }
+   ]
+  },
+  {
+   "key": "internal_controls",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "depth": "analysed",
+     "quote": "requires issuers to devise and maintain a system of internal accounting controls sufficient to provide reasonable assurances"
+    },
+    {
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The FCPA’s internal controls provision, Section 13(b)(2)(B) of the Securities Exchange Act"
+    },
+    {
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The FCPA's internal controls provisions require issuers to devise and maintain a system of internal accounting controls"
+    }
+   ]
+  },
+  {
+   "key": "lack_of_documentation_guest_list",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "mentioned",
+     "quote": "No guest list; no business justification"
+    }
+   ]
+  },
+  {
+   "key": "lack_of_internal_controls",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "12 invoices lacking required dual approval (85.7% non-compliance rate)"
+    }
+   ]
+  },
+  {
+   "key": "license_suspension_pending_investigation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Article 82 of the Ganaran Mining Code provides that the Minister of Mines may suspend a mining license for a period of up to twelve (12) months pending the outcome of a criminal investigation"
+    }
+   ]
+  },
+  {
+   "key": "litigation_hold",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "depth": "mentioned",
+     "quote": "DOJ voluntary document preservation request, dated February 14, 2025, directed to Torchlight Mining Corp. through undersigned counsel"
+    },
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "depth": "analysed",
+     "quote": "Calderwood & Harkness will prepare and assist in the distribution of a comprehensive litigation hold notice (the \"Hold Notice\")"
+    },
+    {
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "depth": "mentioned",
+     "quote": "the United States Department of Justice (the \"DOJ\") sent a voluntary document preservation request to Torchlight"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "depth": "mentioned",
+     "quote": "the litigation hold notice dated March 17, 2025, issued by Calderwood & Harkness LLP on behalf of Torchlight Mining Corp."
+    }
+   ]
+  },
+  {
+   "key": "mining_license_revocation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Article 78 of the Ganaran Mining Code provides that the Minister of Mines and Natural Resources may revoke a mining license upon a finding that the license was obtained through fraud, corruption, or material misrepresentation."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "depth": "mentioned",
+     "quote": "the potential revocation of mining licenses"
+    }
+   ]
+  },
+  {
+   "key": "mutual_legal_assistance",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The United States and the Republic of Ganara do not have a bilateral mutual legal assistance treaty (\"MLAT\")."
+    }
+   ]
+  },
+  {
+   "key": "no_business_purpose_payments",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "No business purpose stated"
+    }
+   ]
+  },
+  {
+   "key": "obstruction_of_justice",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/litigation-hold-notice.docx",
+     "depth": "mentioned",
+     "quote": "may constitute obstruction of justice under federal law (18 U.S.C. § 1519, 18 U.S.C. § 1512), which carries severe criminal penalties"
+    }
+   ]
+  },
+  {
+   "key": "parallel_sec_investigation",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Government Engagement/doj-preservation-response-letter.docx",
+     "depth": "mentioned",
+     "quote": "a formal order of investigation issued by the Division of Enforcement of the U.S. Securities and Exchange Commission (File No. HO-14892, dated January 22, 2025)"
+    }
+   ]
+  },
+  {
+   "key": "payment_timed_to_permit_issuance",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "20 days before license upgrade"
+    }
+   ]
+  },
+  {
+   "key": "payments_after_official_left_office",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Delivered after Diallo left ministerial office"
+    }
+   ]
+  },
+  {
+   "key": "payments_within_60_day_pre_permit_window",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Cumulative Payments Within 60-Day Pre-Permit Window (USD)"
+    }
+   ]
+  },
+  {
+   "key": "personal_email_use",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "mentioned",
+     "quote": "37 communications between Delacroix and Jean-Philippe Renard that were conducted using personal (non-company) email accounts"
+    }
+   ]
+  },
+  {
+   "key": "personal_travel_disguised_as_business",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Personal travel for Col. Konaté"
+    }
+   ]
+  },
+  {
+   "key": "personal_use_of_company_assets",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Personal use by Konaté per witness statements"
+    }
+   ]
+  },
+  {
+   "key": "potential_financial_restatement",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "depth": "analysed",
+     "quote": "Clarendon has indicated that, depending on the findings of the Investigation, it may need to reassess its prior-year audit opinions for FY2019 through FY2023"
+    }
+   ]
+  },
+  {
+   "key": "privilege_log",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Government Engagement/sec-document-production-cover-letter.docx",
+     "depth": "analysed",
+     "quote": "Certain documents responsive to the Subpoena have been withheld from this production on the basis of the attorney-client privilege, the work product doctrine, or both."
+    }
+   ]
+  },
+  {
+   "key": "privilege_ownership",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Correspondence/Counsel/osei-bonsu-counsel-coordination-letter.eml",
+     "depth": "analysed",
+     "quote": "the attorney-client privilege with respect to the interview and=\n its contents belongs to Torchlight Mining Corp."
+    }
+   ]
+  },
+  {
+   "key": "privilege_review",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+     "depth": "mentioned",
+     "quote": "Privilege review required for attorney communications."
+    }
+   ]
+  },
+  {
+   "key": "privilege_waiver",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Correspondence/Counsel/delacroix-counsel-coordination-letter.eml",
+     "depth": "mentioned",
+     "quote": "The Company, not Mr. Delacroix, controls whether to waive the privilege"
+    },
+    {
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "depth": "mentioned",
+     "quote": "It is protected by the attorney-client privilege and the work product doctrine and should not be disclosed to any third party"
+    },
+    {
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "It is protected by the attorney-client privilege and the work product doctrine"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "This memorandum is protected by the attorney-client privilege and the work product doctrine."
+    },
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "privilege protections for foreign legal consultations may be subject to challenge in U.S. proceedings"
+    },
+    {
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "depth": "analysed",
+     "quote": "The sharing of Common Interest Materials pursuant to this Agreement shall not constitute a waiver of the attorney-client privilege"
+    },
+    {
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "depth": "analysed",
+     "quote": "does not constitute a waiver of any applicable privilege, protection, or immunity, including the attorney-client privilege, the work product doctrine, the common interest privilege"
+    },
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "depth": "analysed",
+     "quote": "Any such disclosure may constitute a waiver of the attorney-client privilege and/or work product protection with respect to the materials disclosed"
+    },
+    {
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "depth": "analysed",
+     "quote": "Nothing in this letter is intended to waive, and no action taken pursuant to this letter shall constitute a waiver of, any privilege or protection applicable to the Investigation"
+    },
+    {
+     "path": "1039-00005/Government Engagement/doj-preservation-response-letter.docx",
+     "depth": "mentioned",
+     "quote": "the Company expressly reserves all rights, privileges, and defenses available to it, including but not limited to the attorney-client privilege"
+    },
+    {
+     "path": "1039-00005/Government Engagement/privilege-log.xlsx",
+     "depth": "mentioned",
+     "quote": "Partially privileged; redacted version produced as TRCH-SEC-004215 – TRCH-SEC-004217"
+    },
+    {
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "depth": "analysed",
+     "quote": "Any selective waiver of privilege to the SEC --- whether intentional or inadvertent --- may be argued by the DOJ"
+    },
+    {
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "a company is not required to waive the attorney-client privilege or work-product protection in order to receive cooperation credit"
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "depth": "mentioned",
+     "quote": "potential waiver of privilege (particularly under certain circuit court precedents that treat disclosures to auditors as inconsistent with the maintenance of privilege)"
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-timeline.xlsx",
+     "depth": "mentioned",
+     "quote": "Common interest and joint defense agreement executed between Calderwood & Harkness LLP and Bartlett Keene & Ostrander LLP (Richard Bartlett III, Canadian counsel) governing sharing of privileged materials related to FCPA and CFPOA investigation."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/litigation-hold-notice.docx",
+     "depth": "mentioned",
+     "quote": "protected by the attorney-client privilege and the attorney work product doctrine"
+    },
+    {
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "depth": "mentioned",
+     "quote": "Unauthorized disclosure may constitute a waiver of applicable privileges and protections."
+    },
+    {
+     "path": "1039-00005/Reports/remediation-recommendations-memo.docx",
+     "depth": "mentioned",
+     "quote": "PRIVILEGED AND CONFIDENTIAL --- ATTORNEY-CLIENT PRIVILEGE / ATTORNEY WORK PRODUCT"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-kwame-mensah.docx",
+     "depth": "mentioned",
+     "quote": "Torchlight Mining Corp. may, in its sole discretion, choose to waive the attorney-client privilege in the future"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+     "depth": "analysed",
+     "quote": "the possibility that Torchlight Mining Corp. may elect to waive the attorney-client privilege over some or all of the interview memoranda"
+    }
+   ]
+  },
+  {
+   "key": "restatement_risk",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "the findings raise a potential risk of restatement for prior-year financial statements (FY2019 through FY2023)"
+    }
+   ]
+  },
+  {
+   "key": "sec_disclosure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "This single-signatory arrangement eliminated any check on Osei-Bonsu\\'s discretion to withdraw cash from the TGM operating account."
+    }
+   ]
+  },
+  {
+   "key": "sec_doj_investigation",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "depth": "mentioned",
+     "quote": "the U.S. Securities and Exchange Commission's formal order of investigation (File No. HO-14892) and the inquiry by the U.S. Department of Justice"
+    }
+   ]
+  },
+  {
+   "key": "sec_enforcement_inquiry",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Correspondence/Counsel/whitmore-response-delacroix-interview.eml",
+     "depth": "mentioned",
+     "quote": "the SEC's formal order of investigation (File No. HO-14892)"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "mentioned",
+     "quote": "SEC serves formal document subpoena on Torchlight Mining Corp."
+    },
+    {
+     "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+     "depth": "mentioned",
+     "quote": "SEC Formal Order of Investigation, File No. HO-14892, dated January 22, 2025, authorizing the staff of the Division of Enforcement to investigate potential violations of Sections 13(b)(2)(A), 13(b)(2)(B), and 30A of the Securities Exchange Act of 1934"
+    },
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "depth": "analysed",
+     "quote": "The SEC Division of Enforcement has opened a formal investigation into Torchlight's compliance with the anti-bribery, books and records, and internal controls provisions of the FCPA (SEC File No. HO-14892)."
+    },
+    {
+     "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+     "depth": "mentioned",
+     "quote": "the United States Securities and Exchange Commission (the \"SEC\") commenced a formal order of investigation concerning Torchlight's operations in the Republic of Ganara (File No. HO-14892)"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-nadia-berenson.docx",
+     "depth": "mentioned",
+     "quote": "the SEC's formal order of investigation (File No. HO-14892), which was issued on January 22, 2025"
+    }
+   ]
+  },
+  {
+   "key": "sec_subpoena",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Government Engagement/privilege-log.xlsx",
+     "depth": "analysed",
+     "quote": "Internal memorandum analyzing the SEC formal document subpoena served February 3, 2025 (File No. HO-14892)"
+    }
+   ]
+  },
+  {
+   "key": "section_220_demand",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "the FCPA's books-and-records provision (Section 13(b)(2)(A))"
+    },
+    {
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "depth": "analysed",
+     "quote": "requires issuers to make and keep books, records, and accounts which, in reasonable detail, accurately and fairly reflect"
+    },
+    {
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The FCPA’s books-and-records provision, Section 13(b)(2)(A) of the Securities Exchange Act of 1934, 15 U.S.C. § 78m(b)(2)(A)"
+    },
+    {
+     "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The FCPA's books and records provisions require issuers to make and keep books, records, and accounts"
+    }
+   ]
+  },
+  {
+   "key": "securities_class_action",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "depth": "mentioned",
+     "quote": "One or more putative securities class actions may be filed against Torchlight and individual officers alleging violations of Sections 10(b) and 20(a) of the Securities Exchange Act of 1934"
+    }
+   ]
+  },
+  {
+   "key": "shell_company_indicia",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Crestfield Advisory Partners Ltd. exhibited classic characteristics of a shell company"
+    }
+   ]
+  },
+  {
+   "key": "shell_company_intermediary",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "depth": "analysed",
+     "quote": "Crestfield exhibits characteristics of a shell entity"
+    }
+   ]
+  },
+  {
+   "key": "shell_company_red_flags",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "analysed",
+     "quote": "these characteristics are among the hallmarks that the DOJ and SEC have identified as warning signs suggesting that a purported \"agent\" or \"consultant\" may be acting as a conduit for corrupt payments to foreign officials"
+    }
+   ]
+  },
+  {
+   "key": "shell_company_risk",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "Crestfield presents multiple indicia of a shell entity"
+    },
+    {
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Crestfield exhibits several characteristics commonly associated with shell companies or special-purpose vehicles"
+    }
+   ]
+  },
+  {
+   "key": "shell_entity_vendor",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-nadia-berenson.docx",
+     "depth": "analysed",
+     "quote": "Crestfield appeared to have no website, no publicly identifiable employees other than its sole principal, Jean-Philippe Renard"
+    }
+   ]
+  },
+  {
+   "key": "single_approval_violations",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "analysed",
+     "quote": "14 invoices exceeded the \\$50,000 single-approval threshold"
+    }
+   ]
+  },
+  {
+   "key": "statute_of_limitations",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The Ganaran statute of limitations (*prescription de l’action publique*) for corruption offenses is ten (10) years from the date of the last act constituting the offense."
+    }
+   ]
+  },
+  {
+   "key": "third_party_due_diligence_failure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "No due diligence file exists in Torchlight's compliance records for Crestfield Advisory Partners Ltd."
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "depth": "analysed",
+     "quote": "she had searched for such records during the preliminary internal review and had been unable to locate any file reflecting background screening"
+    }
+   ]
+  },
+  {
+   "key": "third_party_intermediary_diligence_failure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "analysed",
+     "quote": "No due diligence file on Crestfield Advisory Partners Ltd. was located in TGH’s corporate records at its BVI registered office."
+    }
+   ]
+  },
+  {
+   "key": "training_deficiency",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "anti-corruption training was not delivered to the majority of TGM personnel in Ganara during the period under investigation (2019--2024)"
+    }
+   ]
+  },
+  {
+   "key": "unauthorized_cash_disbursements",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "mentioned",
+     "quote": "no resolution was located in TGH’s minute book authorizing TGH or TGM to make cash disbursements for \"community development\" or \"stakeholder gifts.\""
+    }
+   ]
+  },
+  {
+   "key": "unauthorized_excess_payments",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+     "depth": "analysed",
+     "quote": "The excess of \\$1,170,000 --- representing payments made beyond what the Crestfield Advisory Agreement authorized on its face --- was made without any board-level authorization at TGH."
+    }
+   ]
+  },
+  {
+   "key": "vehicle_delivered_before_license_application",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Vehicle delivered before Dembélé license application submitted"
+    }
+   ]
+  },
+  {
+   "key": "vehicle_gifts_to_officials",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Vehicle purchase — Mercedes-Benz GLE"
+    }
+   ]
+  },
+  {
+   "key": "vendor_due_diligence_failure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "analysed",
+     "quote": "she did not know whether Crestfield had any employees other than Renard"
+    }
+   ]
+  },
+  {
+   "key": "voluntary_self_disclosure",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "whether the Company will receive credit for voluntary self-disclosure under the DOJ's Corporate Enforcement Policy"
+    },
+    {
+     "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+     "depth": "mentioned",
+     "quote": "reaching a determination regarding voluntary self-disclosure"
+    },
+    {
+     "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "the Criminal Division’s Corporate Enforcement Policy (formerly known as the FCPA Corporate Enforcement Policy)"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "the company's voluntary self-disclosure (\"VSD\") decision, which is targeted for June 30, 2025"
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "whether Torchlight should make a voluntary self-disclosure (\"VSD\") to the U.S. Department of Justice (\"DOJ\") and the U.S. Securities and Exchange Commission (\"SEC\")"
+    },
+    {
+     "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "Torchlight is currently considering voluntary self-disclosure (\"VSD\") to the U.S. Department of Justice under the DOJ’s FCPA Corporate Enforcement Policy."
+    },
+    {
+     "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+     "depth": "mentioned",
+     "quote": "evaluating potential voluntary self-disclosure to the DOJ, including analysis of the DOJ's Corporate Enforcement and Voluntary Self-Disclosure Policy"
+    },
+    {
+     "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+     "depth": "analysed",
+     "quote": "whether the Company should make a voluntary self-disclosure (\"VSD\") to the DOJ under its Corporate Enforcement Policy"
+    },
+    {
+     "path": "1039-00005/Government Engagement/privilege-log.xlsx",
+     "depth": "analysed",
+     "quote": "Memorandum analyzing strategic considerations for voluntary self-disclosure to the DOJ under the Corporate Enforcement Policy"
+    },
+    {
+     "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+     "depth": "analysed",
+     "quote": "whether to make a voluntary self-disclosure (\"VSD\") under the DOJ's Corporate Enforcement and Voluntary Self-Disclosure Policy"
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+     "depth": "analysed",
+     "quote": "a company that voluntarily self-discloses FCPA violations, fully cooperates with the DOJ's investigation, and timely and appropriately remediates may be eligible for a presumption of a declination"
+    },
+    {
+     "path": "1039-00005/Investigation Planning/investigation-timeline.xlsx",
+     "depth": "mentioned",
+     "quote": "TARGET: Decision deadline on voluntary self-disclosure to DOJ Criminal Division under Corporate Enforcement Policy."
+    },
+    {
+     "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+     "depth": "analysed",
+     "quote": "voluntary self-disclosure (\"VSD\") to the DOJ under the Corporate Enforcement Policy is targeted for **June 30, 2025**"
+    },
+    {
+     "path": "1039-00005/Reports/remediation-recommendations-memo.docx",
+     "depth": "analysed",
+     "quote": "the target deadline for the Company’s voluntary self-disclosure (\"VSD\") decision is June 30, 2025"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "depth": "analysed",
+     "quote": "voluntary self-disclosure (\"VSD\") to the DOJ under its Corporate Enforcement Policy"
+    }
+   ]
+  },
+  {
+   "key": "whistleblower_complaint",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+     "depth": "analysed",
+     "quote": "The whistleblower complaint that initiated the internal investigation was received through the Sentinel hotline on August 19, 2024."
+    },
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "analysed",
+     "quote": "Anonymous whistleblower complaint received via Sentinel Compliance Solutions ethics hotline (Report ID: SCH-2024-08-4417)"
+    },
+    {
+     "path": "1039-00005/Government Engagement/privilege-log.xlsx",
+     "depth": "mentioned",
+     "quote": "covering receipt and escalation of whistleblower complaint, Crestfield engagement awareness, and compliance training program"
+    },
+    {
+     "path": "1039-00005/Government Engagement/sec-document-production-cover-letter.docx",
+     "depth": "mentioned",
+     "quote": "Records related to the anonymous whistleblower complaint received on August 19, 2024, through Torchlight's third-party compliance hotline"
+    },
+    {
+     "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+     "depth": "analysed",
+     "quote": "The matters described above first came to Torchlight's attention through an anonymous whistleblower complaint received on August 19, 2024."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+     "depth": "mentioned",
+     "quote": "Received whistleblower complaint Aug 19, 2024 (SCH-2024-08-4417)."
+    },
+    {
+     "path": "1039-00005/Investigation Planning/litigation-hold-notice.docx",
+     "depth": "mentioned",
+     "quote": "the anonymous whistleblower complaint received on August 19, 2024, through the Sentinel Compliance Solutions Inc. ethics hotline, assigned Report ID SCH-2024-08-4417"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+     "depth": "mentioned",
+     "quote": "An anonymous whistleblower complaint was received on August 19, 2024"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-kwame-mensah.docx",
+     "depth": "mentioned",
+     "quote": "the whistleblower complaint filed on August 19, 2024 (Report ID SCH-2024-08-4417)"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-nadia-berenson.docx",
+     "depth": "analysed",
+     "quote": "Payments being made to government ministers through a fake consulting company in Mauritius to get mining permits approved faster."
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+     "depth": "analysed",
+     "quote": "Torchlight received an anonymous whistleblower complaint on August 19, 2024, via Torchlight’s third-party ethics hotline"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+     "depth": "mentioned",
+     "quote": "the anonymous whistleblower complaint --- bearing Report ID SCH-2024-08-4417 --- that was filed on August 19, 2024"
+    },
+    {
+     "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+     "depth": "mentioned",
+     "quote": "The anonymous whistleblower complaint received on August 19, 2024, bearing Report ID SCH-2024-08-4417"
+    }
+   ]
+  },
+  {
+   "key": "whistleblower_disclosure",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+     "depth": "mentioned",
+     "quote": "Last in-kind benefit before whistleblower"
+    }
+   ]
+  }
+ ],
+ "documents": [
+  {
+   "path": "1039-00005/Correspondence/Counsel/delacroix-counsel-coordination-letter.eml",
+   "doc_type": "letter",
+   "stage": "not_applicable",
+   "date": null,
+   "title": "Torchlight Mining Corp. — Request for Voluntary Interview of Marcus Delacroix"
+  },
+  {
+   "path": "1039-00005/Correspondence/Counsel/osei-bonsu-counsel-coordination-letter.eml",
+   "doc_type": "email",
+   "stage": "not_applicable",
+   "date": null,
+   "title": "Torchlight Mining Corp. — Request for Voluntary Interview of Raymond Osei-Bonsu"
+  },
+  {
+   "path": "1039-00005/Correspondence/Counsel/whitmore-response-delacroix-interview.eml",
+   "doc_type": "email",
+   "stage": "not_applicable",
+   "date": "2025-04-02",
+   "title": "Re: Interview Request — Marcus Delacroix (C&H Matter No. 1039-00005)"
+  },
+  {
+   "path": "1039-00005/Correspondence/Experts/email-pinnacle-work-plan-coordination.eml",
+   "doc_type": "email",
+   "stage": "not_applicable",
+   "date": null,
+   "title": "Torchlight Mining Corp. — Forensic Accounting Work Plan and Priority Items [PRIVILEGED & CONFIDENTIAL — ATTORNEY WORK PRODUCT]"
+  },
+  {
+   "path": "1039-00005/Diligence/Compliance/compliance-program-assessment-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-15",
+   "title": "Assessment of Torchlight Mining Corp. Anti-Corruption Compliance Program"
+  },
+  {
+   "path": "1039-00005/Diligence/Compliance/red-flag-summary-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "draft",
+   "date": "2025-03-28",
+   "title": "Summary of Red Flags Identified in Preliminary Review --- Torchlight Mining Corp. FCPA Investigation"
+  },
+  {
+   "path": "1039-00005/Diligence/Contractual/crestfield-agreement-analysis-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-03-19",
+   "title": "Analysis of Government Relations Advisory Agreement between Torchlight Ganara Holdings Ltd. and Crestfield Advisory Partners Ltd., dated April 12, 2019"
+  },
+  {
+   "path": "1039-00005/Diligence/Corporate/bvi-corporate-records-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-10",
+   "title": "Review of Torchlight Ganara Holdings Ltd. Corporate Records --- Coordinated with Hargrove Whitfield LLP"
+  },
+  {
+   "path": "1039-00005/Diligence/Financial/books-and-records-analysis-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-18",
+   "title": "FCPA Books and Records and Internal Controls Provisions --- Potential Violations --- Torchlight Mining Corp."
+  },
+  {
+   "path": "1039-00005/Diligence/Financial/payment-flow-analysis-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "draft",
+   "date": "2025-04-03",
+   "title": "Analysis of Payment Flows --- TGH to Crestfield Advisory Partners Ltd. and TGM Local Disbursements (2019--2024)"
+  },
+  {
+   "path": "1039-00005/Diligence/Financial/payment-flow-analysis-workbook.xlsx",
+   "doc_type": "tracker_spreadsheet",
+   "stage": "draft",
+   "date": null,
+   "title": "Payment Flow Analysis Workbook"
+  },
+  {
+   "path": "1039-00005/Diligence/Foreign Law/ganaran-law-analysis-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-22",
+   "title": "Ganaran Legal and Regulatory Risk Analysis --- Torchlight Mining Corp. FCPA Investigation"
+  },
+  {
+   "path": "1039-00005/Engagement/common-interest-agreement-bko.docx",
+   "doc_type": "other",
+   "stage": "unsigned",
+   "date": "2025-03-10",
+   "title": "Common Interest and Joint Defense Agreement"
+  },
+  {
+   "path": "1039-00005/Engagement/e-discovery-retention-letter.docx",
+   "doc_type": "engagement_letter",
+   "stage": "unsigned",
+   "date": "2025-03-14",
+   "title": "Retention of Marlowe Asset Management Digital Forensics Inc. for Forensic Data Collection, Processing, and Hosting Services --- Calderwood & Harkness LLP Matter No. 1039-00005"
+  },
+  {
+   "path": "1039-00005/Engagement/engagement-letter-torchlight.docx",
+   "doc_type": "engagement_letter",
+   "stage": "unsigned",
+   "date": "2025-03-05",
+   "title": "Engagement Letter - Torchlight Mining Corp. Internal Investigation"
+  },
+  {
+   "path": "1039-00005/Engagement/pinnacle-forensic-retention-letter.docx",
+   "doc_type": "engagement_letter",
+   "stage": "unsigned",
+   "date": "2025-03-12",
+   "title": "Engagement of Pinnacle Forensic Advisory LLC"
+  },
+  {
+   "path": "1039-00005/Government Engagement/doj-preservation-response-letter.docx",
+   "doc_type": "letter",
+   "stage": "final",
+   "date": "2025-03-18",
+   "title": "Re: Torchlight Mining Corp. — Acknowledgment of Voluntary Document Preservation Request dated February 14, 2025"
+  },
+  {
+   "path": "1039-00005/Government Engagement/privilege-log.xlsx",
+   "doc_type": "tracker_spreadsheet",
+   "stage": "draft",
+   "date": "2025-05-20",
+   "title": "Privilege Log"
+  },
+  {
+   "path": "1039-00005/Government Engagement/sec-document-production-cover-letter.docx",
+   "doc_type": "letter",
+   "stage": "final",
+   "date": "2025-04-14",
+   "title": "First Rolling Production of Documents Responsive to Subpoena Dated February 3, 2025"
+  },
+  {
+   "path": "1039-00005/Government Engagement/sec-subpoena-response-strategy-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "draft",
+   "date": "2025-03-11",
+   "title": "SEC Document Subpoena Response Strategy --- Torchlight Mining Corp. (File No. HO-14892)"
+  },
+  {
+   "path": "1039-00005/Government Engagement/vsd-analysis-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-03-24",
+   "title": "Voluntary Self-Disclosure Analysis --- DOJ Criminal Division FCPA Corporate Enforcement Policy --- Torchlight Mining Corp."
+  },
+  {
+   "path": "1039-00005/Insurance/dno-insurance-notice-letter.docx",
+   "doc_type": "letter",
+   "stage": "final",
+   "date": "2025-03-08",
+   "title": "Notice of Claim Under Directors' and Officers' Liability Insurance Policy No. DM-0092-FCPA-2024 — Torchlight Mining Corp."
+  },
+  {
+   "path": "1039-00005/Investigation Planning/custodian-list.xlsx",
+   "doc_type": "tracker_spreadsheet",
+   "stage": "not_applicable",
+   "date": null,
+   "title": "Custodian List"
+  },
+  {
+   "path": "1039-00005/Investigation Planning/investigation-scope-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-03-07",
+   "title": "Investigation Scope and Work Plan --- Torchlight Mining Corp. FCPA Investigation"
+  },
+  {
+   "path": "1039-00005/Investigation Planning/investigation-timeline.xlsx",
+   "doc_type": "tracker_spreadsheet",
+   "stage": "draft",
+   "date": null,
+   "title": "Investigation Timeline"
+  },
+  {
+   "path": "1039-00005/Investigation Planning/litigation-hold-notice.docx",
+   "doc_type": "other",
+   "stage": "unsigned",
+   "date": "2025-03-17",
+   "title": "LITIGATION HOLD NOTICE / DOCUMENT PRESERVATION DIRECTIVE"
+  },
+  {
+   "path": "1039-00005/Reports/interim-investigation-report-audit-committee.docx",
+   "doc_type": "status_memo",
+   "stage": "draft",
+   "date": "2025-05-15",
+   "title": "Interim Investigation Report to the Audit Committee of the Board of Directors of Torchlight Mining Corp."
+  },
+  {
+   "path": "1039-00005/Reports/remediation-recommendations-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-05-12",
+   "title": "Remediation Recommendations --- Anti-Corruption Compliance Program Enhancements"
+  },
+  {
+   "path": "1039-00005/Witness Interviews/interview-memo-diane-fournier.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-08",
+   "title": "Witness Interview — Diane Fournier, Vice President, Finance, Torchlight Mining Corp."
+  },
+  {
+   "path": "1039-00005/Witness Interviews/interview-memo-kwame-mensah.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-29",
+   "title": "Witness Interview --- Kwame Mensah, Procurement Manager, Torchlight Ganara Mining S.A."
+  },
+  {
+   "path": "1039-00005/Witness Interviews/interview-memo-nadia-berenson.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-07",
+   "title": "Witness Interview — Nadia Berenson, Vice President, Compliance and Ethics, Torchlight Mining Corp."
+  },
+  {
+   "path": "1039-00005/Witness Interviews/interview-memo-patricia-sung.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-09",
+   "title": "Witness Interview Memorandum --- Patricia Sung, General Counsel and Corporate Secretary, Torchlight Mining Corp."
+  },
+  {
+   "path": "1039-00005/Witness Interviews/interview-memo-thomas-achebe.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-04-28",
+   "title": "Witness Interview Memorandum --- Thomas Achebe, Finance Director, Torchlight Ganara Mining S.A."
+  },
+  {
+   "path": "1039-00005/Witness Interviews/witness-interview-protocol.docx",
+   "doc_type": "checklist",
+   "stage": "final",
+   "date": "2025-03-31",
+   "title": "WITNESS INTERVIEW PROTOCOL AND UPJOHN WARNINGS SCRIPT"
+  }
+ ],
+ "_meta": {
+  "model": "claude-opus-5.5",
+  "n_docs": 34,
+  "n_files": 35,
+  "raw_fields_dropped": [
+   "matter_type",
+   "closed_date"
+  ]
+ }
+}

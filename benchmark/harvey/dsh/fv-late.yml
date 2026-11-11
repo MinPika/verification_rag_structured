@@ -1,0 +1,10 @@
+# Firm Verifier (vrag_harvey) for Harvey firm-knowledge: mode "late", completeness check true.
+# Needs the verifier service: (in vrag_harvey) python -m vharvey.fv.server  -> http://127.0.0.1:3150
+- insert:
+    - id: fv-gate
+      name: __BENCH_REPO__/benchmarks/harvey/plugins/fv-gate.mjs
+      config:
+        mode: late
+        complete: true
+        url: http://127.0.0.1:3150
+        assets: __BENCH_REPO__/benchmarks/harvey/fv/assets.json

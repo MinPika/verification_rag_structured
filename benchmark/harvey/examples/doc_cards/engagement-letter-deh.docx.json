@@ -1,0 +1,145 @@
+{
+ "doc_type": "engagement_letter",
+ "title": "Engagement of Calderwood & Harkness LLP --- Meridian Attorney General Antitrust Investigation (CID No. AG-ANT-2025-04172)",
+ "date": "2025-08-27",
+ "stage": "unsigned",
+ "stage_quote": "By: **\\_\\_\\_\\_\\_\\_**\n\nName: Patricia Aldridge",
+ "signed": false,
+ "summary": "Engagement letter from Calderwood & Harkness LLP to Dunmore Energy Holdings Ltd. and its subsidiary Dunmore Fuel Supply, Inc., confirming retention to represent them in connection with a Civil Investigative Demand from the Meridian Attorney General's Antitrust Division regarding alleged bid rigging in fuel-supply contracts. It sets out scope of work, staffing, fees, retainer, disbursements, conflicts, confidentiality, client responsibilities, and termination terms, and remains unsigned with blank signature blocks.",
+ "client": "Dunmore Energy Holdings Ltd.",
+ "people": [
+  {
+   "name": "Patricia Aldridge",
+   "role": "Senior Vice President & General Counsel / client contact",
+   "group": null
+  },
+  {
+   "name": "Howard Bellamy",
+   "role": "Responsible Partner, Billing Partner",
+   "group": "Antitrust & Competition"
+  },
+  {
+   "name": "Monica Reyes",
+   "role": "Senior Associate",
+   "group": "Antitrust & Competition"
+  },
+  {
+   "name": "Elliot Nguyen",
+   "role": "Associate",
+   "group": "Antitrust & Competition"
+  },
+  {
+   "name": "Gregory Whitfield",
+   "role": "opposing/co-respondent counsel",
+   "group": null
+  },
+  {
+   "name": "Diane Colby",
+   "role": "opposing/co-respondent counsel",
+   "group": null
+  }
+ ],
+ "role_statements": [
+  {
+   "party": "Dunmore Energy Holdings Ltd.",
+   "role": "respondent",
+   "is_firm_client": true,
+   "quote": "Calderwood & Harkness LLP (\"C&H\" or the \"Firm\") has been engaged to represent Dunmore Energy Holdings Ltd. (\"DEH\")"
+  },
+  {
+   "party": "Dunmore Fuel Supply, Inc.",
+   "role": "respondent",
+   "is_firm_client": true,
+   "quote": "its wholly owned subsidiary Dunmore Fuel Supply, Inc. (\"DFS,\" and together with DEH, the \"Client\")"
+  },
+  {
+   "party": "Galloway Petroleum Corp.",
+   "role": "co-respondent",
+   "is_firm_client": false,
+   "quote": "Galloway Petroleum Corp. (\"Galloway\") and Ridgeline Energy Partners LLC (\"Ridgeline\") are the co-respondents named in the CID"
+  },
+  {
+   "party": "Ridgeline Energy Partners LLC",
+   "role": "co-respondent",
+   "is_firm_client": false,
+   "quote": "Galloway Petroleum Corp. (\"Galloway\") and Ridgeline Energy Partners LLC (\"Ridgeline\") are the co-respondents named in the CID"
+  }
+ ],
+ "practice_area_signals": [
+  {
+   "area": "Antitrust & Competition",
+   "quote": "we look forward to bringing the full resources of our Antitrust & Competition practice group to bear in the Client's defense"
+  }
+ ],
+ "status_statements": [
+  {
+   "status": "pending",
+   "date": "2025-08-27",
+   "quote": "Civil Investigative Demand (\"CID\") issued on August 22, 2025, by the Office of the Attorney General of the State of Meridian"
+  }
+ ],
+ "outcome_statements": [],
+ "relief_sought": [],
+ "terms": [
+  {
+   "key": "retainer",
+   "value": "$250,000",
+   "quote": "The Firm requests an initial retainer in the amount of **\\$250,000** (the \"Retainer\")"
+  },
+  {
+   "key": "hourly_rates",
+   "value": "Bellamy $1,475; Reyes $975; Nguyen $725",
+   "quote": "Howard Bellamy          Partner                 \\$1,475"
+  },
+  {
+   "key": "fee_estimate_phase1",
+   "value": "$650,000 to $850,000",
+   "quote": "we estimate that the Firm's fees for Phase 1 of the engagement ... will be in the range of **\\$650,000 to \\$850,000**"
+  },
+  {
+   "key": "vendor_cost_estimate",
+   "value": "approximately $385,000",
+   "quote": "we estimate that Brindoval's fees for Phase 1 of the engagement will be approximately **\\$385,000**"
+  },
+  {
+   "key": "late_payment_interest",
+   "value": "1.5% per month",
+   "quote": "charge interest on any overdue balance at the rate of one and one-half percent (1.5%) per month"
+  },
+  {
+   "key": "termination_notice",
+   "value": "30 days",
+   "quote": "Either the Client or the Firm may terminate this engagement upon thirty (30) days' prior written notice"
+  },
+  {
+   "key": "dispute_resolution",
+   "value": "AAA binding arbitration in DC",
+   "quote": "the dispute shall be submitted to final and binding arbitration administered by the American Arbitration Association"
+  }
+ ],
+ "issues": [
+  {
+   "key": "bid_rigging",
+   "depth": "mentioned",
+   "quote": "investigation being conducted by the Meridian Attorney General's Antitrust Division into alleged bid rigging in connection with fuel-supply contracts"
+  },
+  {
+   "key": "privilege_waiver",
+   "depth": "mentioned",
+   "quote": "neither party will waive, or take any action that could reasonably be expected to result in the waiver of, any applicable privilege"
+  },
+  {
+   "key": "credit_agreement_notification_covenant",
+   "depth": "analysed",
+   "quote": "Section 6.01(h) of the Credit Agreement requires the Client to provide notice to the administrative agent of any litigation, investigation, or proceeding that could reasonably be expected to result in a Material Adverse Effect"
+  }
+ ],
+ "_meta": {
+  "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+  "matter": "1016-00001",
+  "model": "claude-sonnet-5",
+  "truncated": false,
+  "chars": 29464,
+  "dropped_ungrounded": 0
+ }
+}

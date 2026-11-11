@@ -1,0 +1,33 @@
+{
+  "run": {
+    "command": "python",
+    "args": [
+      "-m",
+      "policy_server"
+    ]
+  },
+  "namespaced": true,
+  "startup_timeout": 60,
+  "toolsets": {
+    "core": [
+      "overview",
+      "procedure",
+      "find",
+      "read",
+      "template",
+      "rules",
+      "who",
+      "business_days"
+    ],
+    "check": [
+      "check"
+    ],
+    "code": [
+      "run"
+    ],
+    "exec": [
+      "verify_action",
+      "verify_completion"
+    ]
+  }
+}

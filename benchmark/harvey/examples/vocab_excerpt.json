@@ -1,0 +1,359 @@
+{
+ "practice_areas": [
+  {
+   "value": "mergers_acquisitions",
+   "label": "Mergers & Acquisitions / Private Equity",
+   "synonyms": [
+    "company_counsel",
+    "corporate",
+    "corporate_and_organizational_due_diligence",
+    "corporate_due_diligence",
+    "corporate_m_a",
+    "corporate_m_a_group",
+    "de_spac_business_combination",
+    "entity_formation",
+    "growth_equity",
+    "legal_due_diligence",
+    "m_a",
+    "m_a_asset_purchase",
+    "m_a_corporate",
+    "m_a_corporate_transactions",
+    "m_a_counsel",
+    "m_a_department",
+    "m_a_diligence",
+    "m_a_due_diligence",
+    "m_a_group",
+    "m_a_merger",
+    "m_a_practice",
+    "m_a_practice_group",
+    "m_a_private_equity",
+    "m_a_stock_purchase",
+    "m_a_stock_purchase_agreement",
+    "m_a_tender_offer",
+    "merger_m_a",
+    "mergers_acquisitions_department",
+    "mergers_acquisitions_group",
+    "mergers_acquisitions_practice",
+    "mergers_acquisitions_practice_group",
+    "mergers_and_acquisitions",
+    "private_equity",
+    "private_equity_m_a",
+    "rollover_equity",
+    "special_committee_process_m_a",
+    "tender_offer_m_a"
+   ]
+  },
+  {
+   "value": "capital_markets",
+   "label": "Capital Markets & Securities",
+   "synonyms": [
+    "bond_counsel",
+    "capital_markets_convertible_notes_offering",
+    "capital_markets_debt_finance",
+    "capital_markets_debt_financing",
+    "capital_markets_debt_issuance",
+    "capital_markets_debt_offering",
+    "capital_markets_debt_securities",
+    "capital_markets_group",
+    "capital_markets_high_yield_debt",
+    "capital_markets_high_yield_debt_offering",
+    "capital_markets_high_yield_notes_offering",
+    "capital_markets_ipo",
+    "capital_markets_ipo_registration_statement",
+    "capital_markets_ipo_underwriting",
+    "capital_markets_notes_offering",
+    "capital_markets_practice",
+    "capital_markets_practice_group",
+    "capital_markets_secured_notes",
+    "capital_markets_securities",
+    "capital_markets_securities_ipo",
+    "capital_markets_securities_offering",
+    "capital_markets_underwriting",
+    "co_bond_counsel",
+    "corporate_finance",
+    "corporate_securities",
+    "de_spac_transactions",
+    "debt_capital_markets",
+    "equity_capital_markets",
+    "high_yield_debt_offerings",
+    "initial_public_offering",
+    "ipo_capital_markets",
+    "issuer_s_counsel",
+    "public_finance",
+    "public_finance_bond_counsel",
+    "public_finance_municipal_bonds",
+    "rule_144a_private_placement",
+    "rule_144a_regulation_s_private_placement",
+    "sec_capital_markets",
+    "sec_disclosure",
+    "sec_proxy",
+    "securities",
+    "securities_act_of_1933",
+    "securities_and_capital_markets",
+    "securities_capital_markets",
+    "securities_capital_markets_ipo",
+    "securities_corporate_finance",
+    "securities_counsel",
+    "securities_disclosure",
+    "securities_exemption",
+    "securities_ipo",
+    "securities_law",
+    "securities_offering",
+    "securities_offering_capital_markets",
+    "securities_offering_ipo",
+    "securities_offering_rule_144a_regulation_s",
+    "securities_private_placement",
+    "underwriting",
+    "underwriting_capital_markets"
+   ]
+  },
+  {
+   "value": "banking_finance",
+   "label": "Banking & Finance",
+   "synonyms": [
+    "abl_credit_facility",
+    "asset_based_lending",
+    "banking_credit_facilities",
+    "banking_finance_group",
+    "banking_finance_practice",
+    "banking_finance_practice_group",
+    "borrower_s_counsel",
+    "commercial_lending",
+    "counsel_to_the_borrower",
+    "credit_agreement",
+    "credit_agreement_banking",
+    "credit_agreement_finance",
+    "credit_agreement_lending",
+    "credit_agreement_leveraged_finance",
+    "credit_agreement_secured_lending",
+    "credit_agreement_term_loan_b",
+    "credit_facilities",
+    "credit_facility_banking",
+    "data_center_digital_infrastructure_lending",
+    "finance",
+    "finance_credit_agreement",
+    "finance_lending",
+    "finance_mezzanine_lending",
+    "financing",
+    "healthcare_lending",
+    "healthcare_specialty_lending",
+    "lender_consents",
+    "lender_liability",
+    "leveraged_acquisition_finance",
+    "leveraged_finance",
+    "leveraged_finance_credit_agreement",
+    "mezzanine_financing",
+    "mezzanine_loan",
+    "secured_lending_finance",
+    "shipping_finance",
+    "shipping_maritime_finance",
+    "shipping_offshore_finance",
+    "special_assets_group_commercial_lending_litigation",
+    "sponsor_finance",
+    "ucc_filing_secured_transactions",
+    "ucc_lien_perfection",
+    "ucc_perfection"
+   ]
+  },
+  {
+   "value": "structured_finance",
+   "label": "Structured Finance & Securitization",
+   "synonyms": [
+    "abs_structured_finance",
+    "asset_backed_securities_structured_finance",
+    "asset_backed_securitization",
+    "clo_structured_finance",
+    "cmbs_real_estate_finance",
+    "collateralized_loan_obligation_transaction",
+    "leveraged_structured_finance",
+    "rating_agency_process",
+    "securitization",
+    "securitization_structured_finance",
+    "spv_formation_corporate",
+    "structured_credit",
+    "structured_credit_clo",
+    "structured_finance_abs",
+    "structured_finance_asset_backed_securities",
+    "structured_finance_asset_backed_securitization",
+    "structured_finance_clo",
+    "structured_finance_group",
+    "structured_finance_securitization"
+   ]
+  },
+  {
+   "value": "funds_asset_management",
+   "label": "Funds & Asset Management",
+   "synonyms": [
+    "carry_economics",
+    "fund_counsel",
+    "fund_finance",
+    "fund_formation",
+    "fund_formation_private_equity",
+    "fund_formation_private_funds",
+    "fund_restructuring",
+    "fund_restructuring_private_equity",
+    "funds_asset_management_group",
+    "funds_asset_management_practice",
+    "funds_asset_management_practice_group",
+    "investment_funds_group",
+    "private_equity_fund_formation",
+    "private_funds"
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "key": "purchase_price",
+   "label": "Purchase Price",
+   "synonyms": [
+    "acquisition_price",
+    "asset_purchase_price",
+    "base_price",
+    "buyout_price",
+    "cash_payment_at_closing",
+    "closing_cash_consideration",
+    "closing_cash_payment",
+    "equity_purchase_price",
+    "net_closing_payment",
+    "price_adjustment_demand",
+    "purchase_amount",
+    "purchase_price_allocation",
+    "purchase_price_kestrel",
+    "purchase_price_range",
+    "purchase_price_structure",
+    "tax_credit_purchase_price"
+   ]
+  },
+  {
+   "key": "merger_consideration",
+   "label": "Merger Consideration",
+   "synonyms": [
+    "aggregate_merger_consideration",
+    "consideration_mix",
+    "consideration_structure",
+    "exchange_consideration"
+   ]
+  },
+  {
+   "key": "per_share_consideration",
+   "label": "Per-Share Consideration",
+   "synonyms": [
+    "exchange_ratio",
+    "offer_price",
+    "per_share_merger_consideration",
+    "per_share_price",
+    "price_per_share"
+   ]
+  },
+  {
+   "key": "deal_value",
+   "label": "Deal / Transaction Value",
+   "synonyms": [
+    "aggregate_deal_value",
+    "aggregate_equity_value",
+    "aggregate_offering_size",
+    "aggregate_transaction_value",
+    "enterprise_valuation",
+    "enterprise_value",
+    "equity_value",
+    "ipo_offering_size",
+    "offering_size",
+    "total_consideration",
+    "total_deal_value",
+    "transaction_value"
+   ]
+  },
+  {
+   "key": "contract_value",
+   "label": "Total Contract Value",
+   "synonyms": [
+    "cmp_contract_value",
+    "contract_price",
+    "fieldhaven_sow_value",
+    "pinnacle_contract_value",
+    "ridgeline_contract_value",
+    "total_contract_value",
+    "total_program_value"
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "key": "privilege_waiver",
+   "label": "Privilege Waiver",
+   "synonyms": [
+    "compelled_disclosure",
+    "fre_502d_clawback",
+    "inadvertent_disclosure",
+    "inadvertent_disclosure_clawback",
+    "inadvertent_production",
+    "privilege_clawback",
+    "privilege_dispute",
+    "privilege_reservation",
+    "privilege_waiver_risk",
+    "subject_matter_waiver"
+   ]
+  },
+  {
+   "key": "attorney_client_privilege",
+   "label": "Attorney-Client Privilege",
+   "synonyms": [
+    "cross_border_privilege",
+    "privilege_confidentiality",
+    "privilege_preservation",
+    "privilege_protection",
+    "tax_practitioner_privilege_7525",
+    "upjohn_warning",
+    "upjohn_warnings"
+   ]
+  },
+  {
+   "key": "work_product_doctrine",
+   "label": "Work Product Doctrine",
+   "synonyms": [
+    "privilege_work_product",
+    "privilege_work_product_protection",
+    "work_product_protection"
+   ]
+  },
+  {
+   "key": "common_interest_privilege",
+   "label": "Common Interest Privilege",
+   "synonyms": [
+    "common_interest_doctrine",
+    "cross_border_privilege_conflict",
+    "joint_defense_agreement",
+    "joint_defense_common_interest",
+    "privilege_common_interest",
+    "privilege_coordination"
+   ]
+  },
+  {
+   "key": "privilege_log",
+   "label": "Privilege Log",
+   "synonyms": [
+    "privilege_designation",
+    "privilege_log_requirement",
+    "privilege_log_sufficiency",
+    "privilege_withholding"
+   ]
+  }
+ ],
+ "_counts": {
+  "practice_areas": {
+   "raw": 2559,
+   "raw_ge_2": 721,
+   "mapped": 681
+  },
+  "terms": {
+   "raw": 8861,
+   "raw_ge_2": 3339,
+   "mapped": 1850
+  },
+  "issues": {
+   "raw": 14221,
+   "raw_ge_2": 3922,
+   "mapped": 2033
+  }
+ }
+}

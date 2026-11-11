@@ -1,0 +1,946 @@
+{
+ "matter_id": "1016-00001",
+ "client": {
+  "name": "Dunmore Energy Holdings Ltd.",
+  "aliases": [
+   "DEH",
+   "Dunmore Energy Holdings",
+   "Dunmore Fuel Supply, Inc.",
+   "DFS",
+   "the Companies",
+   "Respondents"
+  ],
+  "evidence": [
+   {
+    "path": "1016-00001/CID Response/cid-response-cover-letter.docx",
+    "quote": "This firm represents Dunmore Energy Holdings Ltd. (\"DEH\") and its wholly owned subsidiary Dunmore Fuel Supply, Inc."
+   },
+   {
+    "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+    "quote": "Calderwood & Harkness LLP (\"C&H\" or the \"Firm\") has been engaged to represent Dunmore Energy Holdings Ltd. (\"DEH\")"
+   }
+  ]
+ },
+ "description": "Representation of Dunmore Energy Holdings Ltd. and its subsidiary Dunmore Fuel Supply, Inc. as respondents to Meridian Attorney General Antitrust Division CID No. AG-ANT-2025-04172 investigating alleged bid rigging on Meridian DOT fuel-supply contracts, alongside co-respondents Galloway Petroleum Corp. and Ridgeline Energy Partners LLC.",
+ "counterparties": [
+  "Office of the Attorney General of the State of Meridian, Antitrust Division",
+  "Galloway Petroleum Corp. (co-respondent)",
+  "Ridgeline Energy Partners LLC (co-respondent)"
+ ],
+ "people": {
+  "responsible_partner": "Howard Bellamy",
+  "billing_partner": "Howard Bellamy",
+  "others": [
+   "Monica Reyes (Senior Associate)",
+   "Elliot Nguyen (Associate)",
+   "Patricia Aldridge (client SVP & General Counsel)",
+   "Deepa Narayan (client CFO)",
+   "Malcolm Haverford (client CEO)",
+   "Terrence \"Terry\" Kinloch (client VP, Government Contracts)",
+   "Alicia Brennan (Assistant Attorney General)",
+   "Derek Montague (Chief, Antitrust Division)",
+   "Gregory Whitfield (counsel for Galloway)",
+   "Diane Colby (counsel for Ridgeline)",
+   "Daniel Furrow (e-discovery vendor, Brindoval Analytics)",
+   "Dr. Lawrence Voss (consulting expert economist)"
+  ]
+ },
+ "matter_type": {
+  "value": "regulatory_investigation",
+  "evidence": [
+   {
+    "path": "1016-00001/Document Collection/litigation-hold-notice-template.docx",
+    "quote": "This investigation was initiated by the Office of the Attorney General of the State of Meridian, Antitrust Division (the \"AG's Office\"), which issued Civil Investigative Demand No. AG-ANT-2025-04172"
+   }
+  ]
+ },
+ "practice_areas": [
+  {
+   "value": "antitrust_competition",
+   "evidence": [
+    {
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "quote": "we look forward to bringing the full resources of our Antitrust & Competition practice group to bear in the Client's defense"
+    }
+   ]
+  }
+ ],
+ "client_role": [
+  {
+   "value": "respondent",
+   "evidence": [
+    {
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "quote": "DEH and DFS are named as respondents to the CID."
+    }
+   ]
+  },
+  {
+   "value": "regulated_party",
+   "evidence": [
+    {
+     "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+     "quote": "each Party is a respondent in the investigation and has received a CID bearing the same reference number"
+    }
+   ]
+  }
+ ],
+ "opened_date": {
+  "value": "2025-08-27",
+  "evidence": [
+   {
+    "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+    "quote": "Civil Investigative Demand (\"CID\") issued on August 22, 2025, by the Office of the Attorney General of the State of Meridian"
+   }
+  ]
+ },
+ "status": {
+  "value": "open",
+  "date": "2025-11-03",
+  "evidence": [
+   {
+    "path": "1016-00001/CID Response/cid-response-cover-letter.docx",
+    "quote": "The Companies are prepared to make appropriate representatives available for examination at a mutually convenient time following the Attorney General's review of the document production and interrogatory responses enclosed herewith."
+   }
+  ]
+ },
+ "closed_date": null,
+ "outcome": {
+  "value": "ongoing",
+  "date": "2025-11-03",
+  "detail": "CID response and document production served; corporate representative examinations pending and AG noncommittal on settlement.",
+  "evidence": [
+   {
+    "path": "1016-00001/CID Response/cid-response-cover-letter.docx",
+    "quote": "The Companies are prepared to make appropriate representatives available for examination at a mutually convenient time following the Attorney General's review of the document production and interrogatory responses enclosed herewith."
+   }
+  ]
+ },
+ "relief_sought_by_client": [
+  {
+   "type": "other",
+   "amount": null,
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/extension-request-letter.docx",
+     "quote": "we write on behalf of Respondents to respectfully request a thirty (30) day extension of the deadline to respond to the CID"
+    }
+   ]
+  }
+ ],
+ "terms_executed": [],
+ "terms_draft_only": [
+  {
+   "key": "bates_numbering",
+   "evidence": [
+    {
+     "value": "DEH-MERID-000001 through DEH-MERID-[final]",
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "stage": "final",
+     "quote": "**DEH-MERID-000001** through **DEH-MERID-\\[final\\]**"
+    }
+   ]
+  },
+  {
+   "key": "breach_notification_window",
+   "evidence": [
+    {
+     "value": "15 business days",
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "stage": "final",
+     "quote": "requires DEH to notify the administrative agent within fifteen (15) business days of becoming aware of any \\\"Litigation Event.\\\""
+    }
+   ]
+  },
+  {
+   "key": "civil_penalty",
+   "evidence": [
+    {
+     "value": "$4,500,000 to $15,000,000",
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "stage": "final",
+     "quote": "15 violations × \\$1,000,000 per violation = **\\$15,000,000**"
+    }
+   ]
+  },
+  {
+   "key": "common_interest_doctrine",
+   "evidence": [
+    {
+     "value": "sharing does not waive privilege",
+     "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+     "stage": "unsigned",
+     "quote": "the sharing of Common Interest Materials under this Agreement shall not constitute a waiver of the attorney-client privilege"
+    }
+   ]
+  },
+  {
+   "key": "confidentiality_designations",
+   "evidence": [
+    {
+     "value": "CONFIDENTIAL or HIGHLY CONFIDENTIAL — ATTORNEYS' EYES ONLY",
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "stage": "final",
+     "quote": "designate certain documents produced in response to the CID as **\\\"CONFIDENTIAL\\\"** or **\\\"HIGHLY CONFIDENTIAL --- ATTORNEYS\\' EYES ONLY\\\"**"
+    }
+   ]
+  },
+  {
+   "key": "credit_agreement_reporting_covenant",
+   "evidence": [
+    {
+     "value": "Material litigation notification required for liability exceeding $25 million MAE threshold",
+     "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+     "stage": "final",
+     "quote": "contains a \"material litigation\" reporting covenant under Section 6.01(h), which requires DEH to notify the administrative agent of any governmental investigation"
+    }
+   ]
+  },
+  {
+   "key": "credit_facility",
+   "evidence": [
+    {
+     "value": "$750,000,000 senior secured revolving credit facility",
+     "path": "1016-00001/Correspondence/lender-notification-letter.docx",
+     "stage": "unsigned",
+     "quote": "providing for, among other things, a \\$750,000,000 senior secured revolving credit facility"
+    },
+    {
+     "value": "$750 million revolving credit facility with Pinnacle National Bank, N.A.",
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "stage": "final",
+     "quote": "implications of the investigation for DEH’s obligations under its \\$750 million revolving credit facility with Pinnacle National Bank, N.A."
+    }
+   ]
+  },
+  {
+   "key": "debarment",
+   "evidence": [
+    {
+     "value": "up to 5 years, ~$446 million revenue at risk",
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "stage": "final",
+     "quote": "mandatory debarment from all Meridian state procurement for a period of up to five (5) years"
+    }
+   ]
+  },
+  {
+   "key": "dispute_resolution",
+   "evidence": [
+    {
+     "value": "AAA binding arbitration in DC",
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "stage": "unsigned",
+     "quote": "the dispute shall be submitted to final and binding arbitration administered by the American Arbitration Association"
+    }
+   ]
+  },
+  {
+   "key": "estimated_total_cost",
+   "evidence": [
+    {
+     "value": "$385,000 (approximate)",
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "stage": "unsigned",
+     "quote": "**Estimated Total (Phase 1)** | | **\\$385,000 (approximate)**"
+    }
+   ]
+  },
+  {
+   "key": "extended_response_deadline",
+   "evidence": [
+    {
+     "value": "November 3, 2025",
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "stage": "final",
+     "quote": "confirming that the extended CID response deadline of **November 3, 2025** remains in full force and effect for all three respondents"
+    }
+   ]
+  },
+  {
+   "key": "fee_estimate",
+   "evidence": [
+    {
+     "value": "$650,000 to $850,000",
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "stage": "unsigned",
+     "quote": "we estimate that the Firm's fees for Phase 1 of the engagement ... will be in the range of **\\$650,000 to \\$850,000**"
+    }
+   ]
+  },
+  {
+   "key": "governing_law",
+   "evidence": [
+    {
+     "value": "Commonwealth of Virginia",
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "stage": "unsigned",
+     "quote": "This SOW shall be governed by, and construed in accordance with, the laws of the **Commonwealth of Virginia**"
+    }
+   ]
+  },
+  {
+   "key": "hourly_rates",
+   "evidence": [
+    {
+     "value": "Bellamy $1,475; Reyes $975; Nguyen $725",
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "stage": "unsigned",
+     "quote": "Howard Bellamy          Partner                 \\$1,475"
+    }
+   ]
+  },
+  {
+   "key": "insurance_requirement",
+   "evidence": [
+    {
+     "value": "$10,000,000 per occurrence",
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "stage": "unsigned",
+     "quote": "cyber-liability insurance with Hargrove Mutual Insurance Co. with a per-occurrence limit of not less than **\\$10,000,000**"
+    }
+   ]
+  },
+  {
+   "key": "joint_defense_agreement",
+   "evidence": [
+    {
+     "value": "dated October 1, 2025",
+     "path": "1016-00001/Correspondence/internal-status-update-email.eml",
+     "stage": "not_applicable",
+     "quote": "Per the Joint Defense Agreement (dated October 1, 2025)"
+    }
+   ]
+  },
+  {
+   "key": "late_payment_interest",
+   "evidence": [
+    {
+     "value": "1.5% per month",
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "stage": "unsigned",
+     "quote": "charge interest on any overdue balance at the rate of one and one-half percent (1.5%) per month"
+    }
+   ]
+  },
+  {
+   "key": "liability_cap",
+   "evidence": [
+    {
+     "value": "total fees paid by Client to Vendor",
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "stage": "unsigned",
+     "quote": "Vendor’s aggregate liability to Client under or in connection with this SOW shall not exceed the **total fees actually paid by Client to Vendor under this SOW**"
+    }
+   ]
+  },
+  {
+   "key": "litigation_event",
+   "evidence": [
+    {
+     "value": "defined term triggering notice obligation",
+     "path": "1016-00001/Correspondence/lender-notification-letter.docx",
+     "stage": "unsigned",
+     "quote": "The Borrower believes that this investigation constitutes a \"Litigation Event\" as defined in Section 1.01 of the Credit Agreement."
+    }
+   ]
+  },
+  {
+   "key": "material_adverse_effect",
+   "evidence": [
+    {
+     "value": "$25,000,000",
+     "path": "1016-00001/Correspondence/lender-notification-letter.docx",
+     "stage": "unsigned",
+     "quote": "the Material Adverse Effect threshold of \\$25,000,000 set forth in the Credit Agreement"
+    },
+    {
+     "value": "$25 million",
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "stage": "final",
+     "quote": "the \\$25 million Material Adverse Effect reporting threshold"
+    },
+    {
+     "value": "$25 million",
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "stage": "final",
+     "quote": "The MAE threshold is defined in Section 1.01 of the Credit Agreement as \\$25 million in the aggregate."
+    }
+   ]
+  },
+  {
+   "key": "payment_terms",
+   "evidence": [
+    {
+     "value": "30 days",
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "stage": "unsigned",
+     "quote": "Client shall pay each invoice within thirty (30) days of receipt."
+    }
+   ]
+  },
+  {
+   "key": "retainer",
+   "evidence": [
+    {
+     "value": "$250,000",
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "stage": "unsigned",
+     "quote": "The Firm requests an initial retainer in the amount of **\\$250,000** (the \"Retainer\")"
+    },
+    {
+     "value": "$250,000",
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "stage": "final",
+     "quote": "A retainer in the amount of \\$250,000 was received by the firm on August 29, 2025."
+    }
+   ]
+  },
+  {
+   "key": "revolving_credit_facility",
+   "evidence": [
+    {
+     "value": "$750 million senior secured revolving credit facility, dated March 15, 2023",
+     "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+     "stage": "final",
+     "quote": "Pinnacle National Bank, N.A. (\"Pinnacle\") serves as the administrative agent under DEH’s \\$750 million senior secured revolving credit facility, dated March 15, 2023"
+    }
+   ]
+  },
+  {
+   "key": "settlement_notice",
+   "evidence": [
+    {
+     "value": "not less than 5 business days advance written notice",
+     "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+     "stage": "unsigned",
+     "quote": "not less than five (5) business days prior to executing any binding settlement agreement, cooperation agreement, leniency agreement, immunity agreement, plea agreement, or consent decree"
+    }
+   ]
+  },
+  {
+   "key": "target_recall_rate",
+   "evidence": [
+    {
+     "value": "≥ 80%",
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "stage": "unsigned",
+     "quote": "The target recall rate for the TAR protocol is **≥ 80%**."
+    }
+   ]
+  },
+  {
+   "key": "termination_notice",
+   "evidence": [
+    {
+     "value": "15 days",
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "stage": "unsigned",
+     "quote": "Either Party may terminate this SOW at any time, with or without cause, upon fifteen (15) days’ prior written notice"
+    },
+    {
+     "value": "30 days",
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "stage": "unsigned",
+     "quote": "Either the Client or the Firm may terminate this engagement upon thirty (30) days' prior written notice"
+    }
+   ]
+  },
+  {
+   "key": "treble_damages",
+   "evidence": [
+    {
+     "value": "$90,290,000 to $135,430,000",
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "stage": "final",
+     "quote": "Treble damages: \\$30.096 million × 3 = **\\$90.288 million**"
+    }
+   ]
+  },
+  {
+   "key": "vendor_cost_estimate",
+   "evidence": [
+    {
+     "value": "approximately $385,000",
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "stage": "unsigned",
+     "quote": "we estimate that Brindoval's fees for Phase 1 of the engagement will be approximately **\\$385,000**"
+    }
+   ]
+  },
+  {
+   "key": "withdrawal_notice",
+   "evidence": [
+    {
+     "value": "10 calendar days' written notice",
+     "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+     "stage": "unsigned",
+     "quote": "Any Party may withdraw from this Agreement at any time and for any reason, upon ten (10) calendar days\\' written notice"
+    }
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "key": "antitrust_bid_rigging",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-notice-template.docx",
+     "depth": "analysed",
+     "quote": "The investigation concerns allegations of bid rigging in connection with fuel-supply contracts awarded by the Meridian State Department of Transportation"
+    }
+   ]
+  },
+  {
+   "key": "antitrust_bid_rigging_investigation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/CID Response/cid-response-cover-letter.docx",
+     "depth": "analysed",
+     "quote": "Requests 7 through 12 seek communications between DFS personnel and employees of Galloway Petroleum Corp. (\"Galloway\") and Ridgeline Energy Partners LLC (\"Ridgeline\")"
+    }
+   ]
+  },
+  {
+   "key": "antitrust_investigation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/lender-notification-letter.docx",
+     "depth": "analysed",
+     "quote": "an investigation by the Attorney General of the State of Meridian into alleged bid rigging in connection with fuel-supply contracts awarded by the Meridian State Department of Transportation"
+    }
+   ]
+  },
+  {
+   "key": "bid_rigging",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+     "depth": "analysed",
+     "quote": "the specific prohibition on bid rigging set forth in § 75-21-3"
+    },
+    {
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "depth": "mentioned",
+     "quote": "investigation being conducted by the Meridian Attorney General's Antitrust Division into alleged bid rigging in connection with fuel-supply contracts"
+    },
+    {
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "an investigation by the Meridian Attorney General's Office (\"AG\") into alleged bid rigging on fuel-supply contracts awarded by the Meridian State Department of Transportation"
+    },
+    {
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "depth": "analysed",
+     "quote": "DFS engaged in a scheme with two competitors --- Galloway Petroleum Corp. (\"Galloway\" or \"GPC\") and Ridgeline Energy Partners LLC (\"Ridgeline\" or \"REP\") --- to rig bids on fuel-supply contracts"
+    },
+    {
+     "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+     "depth": "analysed",
+     "quote": "allegations of bid rigging in connection with fuel-supply contracts awarded by the Meridian State Department of Transportation"
+    }
+   ]
+  },
+  {
+   "key": "bid_rigging_investigation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "depth": "analysed",
+     "quote": "seeks documents and communications relevant to an investigation into allegations of bid rigging in connection with fuel-supply contracts awarded by the Meridian State Department of Transportation"
+    }
+   ]
+  },
+  {
+   "key": "bid_rigging_price_fixing",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "depth": "mentioned",
+     "quote": "alleged bid-rigging and price-fixing in connection with Meridian Department of Transportation fuel-supply contracts"
+    }
+   ]
+  },
+  {
+   "key": "common_interest_privilege",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "depth": "mentioned",
+     "quote": "a Joint Defense and Common Interest Agreement (the \"JDA\") exists among the Respondents and their co-respondents"
+    },
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+     "depth": "mentioned",
+     "quote": "Such coordination may be governed by a joint-defense agreement or common-interest agreement"
+    }
+   ]
+  },
+  {
+   "key": "confidential_treatment",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/CID Response/cid-response-cover-letter.docx",
+     "depth": "mentioned",
+     "quote": "the Companies have designated certain documents as \"CONFIDENTIAL\" or \"HIGHLY CONFIDENTIAL --- ATTORNEYS' EYES ONLY\""
+    }
+   ]
+  },
+  {
+   "key": "conscious_parallelism",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "depth": "analysed",
+     "quote": "This principle, known as the \\\"conscious parallelism\\\" doctrine, has been established by the U.S. Supreme Court"
+    }
+   ]
+  },
+  {
+   "key": "cooperation_credit",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "depth": "mentioned",
+     "quote": "the AG's office will **\\\"take into account the timeliness and completeness of each respondent's cooperation in determining what remedies to seek.\\\"**"
+    }
+   ]
+  },
+  {
+   "key": "cross_default",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "depth": "mentioned",
+     "quote": "Cross-Default Provisions. An adverse outcome in the investigation, or a failure to comply with notification obligations under the Credit Agreement, could trigger cross-default provisions"
+    }
+   ]
+  },
+  {
+   "key": "data_breach_notification",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "depth": "analysed",
+     "quote": "Vendor shall notify Client in writing within twenty-four (24) hours of becoming aware of such breach, access, or incident."
+    }
+   ]
+  },
+  {
+   "key": "debarment",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "depth": "mentioned",
+     "quote": "Meridian Code Ann. § 31-7-211 provides for debarment of contractors found to have engaged in bid rigging on public contracts"
+    },
+    {
+     "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+     "depth": "mentioned",
+     "quote": "debarment from Meridian state procurement for a period of years"
+    }
+   ]
+  },
+  {
+   "key": "federal_criminal_exposure",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "depth": "mentioned",
+     "quote": "Federal criminal bid-rigging under the Sherman Act, 15 U.S.C. § 1, carries penalties of up to \\$100 million for corporations and, critically, individual criminal liability for responsible executives"
+    }
+   ]
+  },
+  {
+   "key": "financial_covenant_compliance",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "depth": "analysed",
+     "quote": "Section 6.01(h) of the Credit Agreement requires the Client to provide notice to the administrative agent of any litigation, investigation, or proceeding that could reasonably be expected to result in a Material Adverse Effect"
+    }
+   ]
+  },
+  {
+   "key": "ftc_civil_investigative_demand",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/extension-request-letter.docx",
+     "depth": "analysed",
+     "quote": "Civil Investigative Demand No. AG-ANT-2025-04172 (the \\\"CID\\\"), issued by the Antitrust Division of the Office of the Attorney General on August 22, 2025"
+    }
+   ]
+  },
+  {
+   "key": "joint_and_several_liability",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+     "depth": "analysed",
+     "quote": "co-conspirators in a bid-rigging case are **jointly and severally liable** for the full amount of treble damages"
+    }
+   ]
+  },
+  {
+   "key": "obstruction_of_justice",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+     "depth": "analysed",
+     "quote": "18 U.S.C. § 1519, which criminalizes the knowing destruction of documents with intent to obstruct a federal investigation"
+    },
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-notice-template.docx",
+     "depth": "mentioned",
+     "quote": "Spoliation of evidence in a government antitrust investigation may give rise to separate criminal liability under federal and state obstruction-of-justice statutes."
+    }
+   ]
+  },
+  {
+   "key": "price_fixing",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "§ 75-21-9 authorizes injured purchasers --- including the State of Meridian and its agencies --- to recover treble damages for actual injury sustained"
+    }
+   ]
+  },
+  {
+   "key": "privilege_log_format",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "depth": "analysed",
+     "quote": "AAG Brennan stated that the AG's office will permit **categorical logging** only to the extent that the documents grouped within a given category share truly common characteristics."
+    }
+   ]
+  },
+  {
+   "key": "privilege_review",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/extension-request-letter.docx",
+     "depth": "mentioned",
+     "quote": "for attorney-client privilege, attorney work-product protection, and any other applicable protections"
+    },
+    {
+     "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+     "depth": "analysed",
+     "quote": "Documents collected from Ms. Aldridge’s devices are expected to include a significant volume of potentially privileged communications."
+    },
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+     "depth": "mentioned",
+     "quote": "Communications involving Ms. Aldridge may implicate the attorney-client privilege and the work-product doctrine"
+    }
+   ]
+  },
+  {
+   "key": "privilege_waiver",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/CID Response/cid-response-cover-letter.docx",
+     "depth": "mentioned",
+     "quote": "Any inadvertent production of privileged material shall not constitute a waiver of any applicable privilege."
+    },
+    {
+     "path": "1016-00001/Correspondence/lender-notification-letter.docx",
+     "depth": "mentioned",
+     "quote": "does not waive, and shall not be construed as a waiver of, any privilege or protection available to the Borrower"
+    },
+    {
+     "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+     "depth": "mentioned",
+     "quote": "neither party will waive, or take any action that could reasonably be expected to result in the waiver of, any applicable privilege"
+    },
+    {
+     "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+     "depth": "analysed",
+     "quote": "The question of whether such forwarding preserves or waives the attorney-client privilege is a fact-specific inquiry under Meridian law."
+    },
+    {
+     "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+     "depth": "analysed",
+     "quote": "such privilege or protection shall not be deemed waived by reason of the disclosure of such material to the other Parties"
+    }
+   ]
+  },
+  {
+   "key": "public_records_law_confidentiality",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "depth": "analysed",
+     "quote": "Meridian's public-records laws** (Meridian Code Annotated § 25-61-1 *et seq.*) may impose constraints on the scope and enforceability of confidentiality protections"
+    }
+   ]
+  },
+  {
+   "key": "scope_of_document_requests",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+     "depth": "analysed",
+     "quote": "The most substantive portion of the discussion concerned the scope of Document Requests 7 through 12 of the CID."
+    }
+   ]
+  },
+  {
+   "key": "scope_of_requests_dispute",
+   "depth": "mentioned",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/extension-request-letter.docx",
+     "depth": "mentioned",
+     "quote": "seek \\\"all communications\\\" between DFS and DEH personnel, on the one hand, and employees of Galloway Petroleum Corp. and Ridgeline Energy Partners LLC, on the other, \\\"regardless of subject matter.\\\""
+    }
+   ]
+  },
+  {
+   "key": "spoliation",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+     "depth": "analysed",
+     "quote": "Courts may impose sanctions for spoliation, which can include adverse-inference instructions"
+    },
+    {
+     "path": "1016-00001/Document Collection/litigation-hold-notice-template.docx",
+     "depth": "mentioned",
+     "quote": "Courts have broad authority to impose sanctions for the spoliation or destruction of relevant evidence."
+    }
+   ]
+  },
+  {
+   "key": "technology_assisted_review",
+   "depth": "analysed",
+   "evidence": [
+    {
+     "path": "1016-00001/Correspondence/extension-request-letter.docx",
+     "depth": "analysed",
+     "quote": "implementing a technology-assisted review (\\\"TAR\\\") protocol utilizing a continuous active learning (\\\"CAL\\\") methodology"
+    }
+   ]
+  }
+ ],
+ "documents": [
+  {
+   "path": "1016-00001/CID Response/cid-response-cover-letter.docx",
+   "doc_type": "letter",
+   "stage": "final",
+   "date": "2025-11-03",
+   "title": "Response to Civil Investigative Demand No. AG-ANT-2025-04172"
+  },
+  {
+   "path": "1016-00001/Correspondence/extension-request-letter.docx",
+   "doc_type": "letter",
+   "stage": "unsigned",
+   "date": "2025-09-22",
+   "title": "Civil Investigative Demand No. AG-ANT-2025-04172 — Request for Extension of Time"
+  },
+  {
+   "path": "1016-00001/Correspondence/internal-status-update-email.eml",
+   "doc_type": "email",
+   "stage": "not_applicable",
+   "date": "2025-10-22",
+   "title": "Dunmore — CID Response Status Update [1016-00001]"
+  },
+  {
+   "path": "1016-00001/Correspondence/lender-notification-letter.docx",
+   "doc_type": "letter",
+   "stage": "unsigned",
+   "date": "2025-09-15",
+   "title": "Notice Pursuant to Section 6.01(h) of the Senior Secured Revolving Credit Agreement Dated March 15, 2023"
+  },
+  {
+   "path": "1016-00001/Correspondence/meet-and-confer-memo.docx",
+   "doc_type": "status_memo",
+   "stage": "final",
+   "date": "2025-10-17",
+   "title": "Summary of Meet-and-Confer with Meridian Attorney General's Office --- Civil Investigative Demand No. AG-ANT-2025-04172 (Dunmore Energy Holdings Ltd. and Dunmore Fuel Supply, Inc.) --- Meeting held October 17, 2025"
+  },
+  {
+   "path": "1016-00001/Document Collection/crestview-analytics-sow.docx",
+   "doc_type": "other",
+   "stage": "unsigned",
+   "date": "2025-09-12",
+   "title": "STATEMENT OF WORK --- E-DISCOVERY SERVICES"
+  },
+  {
+   "path": "1016-00001/Document Collection/litigation-hold-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-09-03",
+   "title": "Document Preservation / Litigation Hold --- CID No. AG-ANT-2025-04172 (C&H Matter No. 1016-00001)"
+  },
+  {
+   "path": "1016-00001/Document Collection/litigation-hold-notice-template.docx",
+   "doc_type": "other",
+   "stage": "template",
+   "date": "2025-09-05",
+   "title": "CONFIDENTIAL --- LEGAL HOLD NOTICE"
+  },
+  {
+   "path": "1016-00001/Engagement/engagement-letter-deh.docx",
+   "doc_type": "engagement_letter",
+   "stage": "unsigned",
+   "date": "2025-08-27",
+   "title": "Engagement of Calderwood & Harkness LLP --- Meridian Attorney General Antitrust Investigation (CID No. AG-ANT-2025-04172)"
+  },
+  {
+   "path": "1016-00001/Legal Analysis/cid-analysis-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-09-08",
+   "title": "Analysis of Civil Investigative Demand No. AG-ANT-2025-04172 --- Dunmore Energy Holdings Ltd. and Dunmore Fuel Supply, Inc."
+  },
+  {
+   "path": "1016-00001/Legal Analysis/liability-exposure-memo.docx",
+   "doc_type": "legal_memo",
+   "stage": "final",
+   "date": "2025-09-15",
+   "title": "Liability Exposure Assessment --- Meridian AG Antitrust Investigation (CID No. AG-ANT-2025-04172) / C&H Matter No. 1016-00001"
+  },
+  {
+   "path": "1016-00001/Transaction Documents/joint-defense-agreement.docx",
+   "doc_type": "other",
+   "stage": "unsigned",
+   "date": "2025-10-01",
+   "title": "JOINT DEFENSE AND COMMON INTEREST AGREEMENT"
+  }
+ ],
+ "_meta": {
+  "model": "claude-opus-5.5",
+  "n_docs": 12,
+  "n_files": 12,
+  "raw_fields_dropped": [
+   "closed_date"
+  ]
+ }
+}

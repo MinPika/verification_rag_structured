@@ -1,0 +1,135 @@
+{
+ "tools": [
+  {
+   "name": "fv_check",
+   "description": "Firm Verifier: check ONE condition about ONE matter against the firm's offline-verified index. Returns verdict TRUE / FALSE / SECONDARY / NOT_FOUND / UNKNOWN with evidence (file path + verbatim quote). fields: practice_area, client_role, status, outcome, closed_year, opened_year, relief_sought_by_client, term.<key> (executed deal/legal terms), issue.<key> (value analysed or mentioned)",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "matter_id": {
+      "type": "string",
+      "description": "DMS folder id, e.g. 1003-00001"
+     },
+     "field": {
+      "type": "string",
+      "description": "e.g. outcome, practice_area, term.earnout, issue.stark_law"
+     },
+     "value": {
+      "type": "string",
+      "description": "the value you want confirmed, e.g. dismissed, capital_markets, present, analysed, 2023"
+     }
+    },
+    "required": [
+     "matter_id",
+     "field"
+    ]
+   }
+  },
+  {
+   "name": "fv_check_many",
+   "description": "Firm Verifier: run several fv_check calls at once (max 40). Use it to verify a candidate list.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "checks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "matter_id": {
+         "type": "string"
+        },
+        "field": {
+         "type": "string"
+        },
+        "value": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "matter_id",
+        "field"
+       ]
+      }
+     }
+    },
+    "required": [
+     "checks"
+    ]
+   }
+  },
+  {
+   "name": "fv_matter",
+   "description": "Firm Verifier: the verified card of one matter (client, practice areas, the firm client's role, status, outcome, dates, relief sought, executed vs draft-only terms, issues analysed vs only mentioned, people).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "matter_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "matter_id"
+    ]
+   }
+  },
+  {
+   "name": "fv_doc",
+   "description": "Firm Verifier: the card of one file: type, date, stage (draft / redline / execution_version / executed / filed / final / unsigned), signed, summary, terms, issues.",
+   "parameters": {
+    "type": "object",
+    "required": [
+     "path"
+    ],
+    "properties": {
+     "path": {
+      "type": "string",
+      "description": "<matter>/<folder>/<file>, e.g. 1003-00001/Memos/x.docx"
+     }
+    }
+   }
+  }
+ ],
+ "complete_tool": {
+  "name": "fv_check_complete",
+  "description": "Firm Verifier: verify the claim 'these are ALL the matters satisfying these conditions' against the offline index. Returns index matches missing from your list (leads to confirm in the documents), listed matters the index contradicts, and possible matches with unknown fields.",
+  "parameters": {
+   "type": "object",
+   "required": [
+    "conditions",
+    "matters"
+   ],
+   "properties": {
+    "conditions": {
+     "type": "array",
+     "description": "the question's conditions as fv_check fields",
+     "items": {
+      "type": "object",
+      "properties": {
+       "field": {
+        "type": "string"
+       },
+       "value": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "field"
+      ]
+     }
+    },
+    "matters": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "your current answer list"
+    }
+   }
+  }
+ },
+ "start_prompt": "\n\n## Firm Verifier (fv_* tools)\n\nYou also have **verifier tools** built offline from every document in the DMS. They answer narrow questions about a\nmatter or a file with TRUE / FALSE / SECONDARY / NOT_FOUND / UNKNOWN plus evidence (path + verbatim quote):\n\n- `fv_check(matter_id, field, value)` / `fv_check_many(checks)`: fields `practice_area`, `client_role`, `status`,\n  `outcome`, `closed_year`, `opened_year`, `relief_sought_by_client`, `term.<key>` (terms in **executed/filed**\n  documents; drafts are reported separately), `issue.<key>` (value `analysed` or `mentioned`).\n- `fv_matter(matter_id)`: the matter's verified card. `fv_doc(path)`: a file's stage (draft vs executed), date, terms.\n\nHow to use them:\n0. **The verifier does not find matters and does not tell you when you have found them all.** Search the DMS\n   exactly as thoroughly as you would without it (questions often need many matters); verification comes after,\n   and a few TRUE verdicts are not a reason to stop searching.\n1. Find candidate matters with your usual search \u2014 all of them.\n2. **Before you list a matter as qualifying, verify each condition of the question for it** (one `fv_check_many` call\n   for the whole candidate list is cheapest). Typical conditions: practice area, outcome (settled \u2260 dismissed), the\n   firm client's role / relief sought, executed vs draft documents, a specific term (an earnout is not a CVR), an\n   issue analysed vs merely mentioned, status/closing year.\n3. FALSE with evidence \u2192 drop the matter or explain in one line why the question still covers it. NOT_FOUND \u2192 the\n   index has no record of it; drop only after reading the matter's key document confirms it is absent.\n   SECONDARY (practice_area) \u2192 the matter belongs to another practice group and only touched this one; a question\n   about \"our <practice> matters\" usually means the group's own (primary) matters.\n   UNKNOWN \u2192 decide from the documents yourself; UNKNOWN is never a reason to drop a matter.\n4. In `response.md`, list only qualifying matters as the answer; do not present non-qualifying matters as part of\n   the answer (if you mention them, label them clearly as excluded).\n",
+ "start_prompt_complete": "\n\n## Firm Verifier (fv_* tools)\n\nYou also have **verifier tools** built offline from every document in the DMS. They answer narrow questions about a\nmatter or a file with TRUE / FALSE / SECONDARY / NOT_FOUND / UNKNOWN plus evidence (path + verbatim quote):\n\n- `fv_check(matter_id, field, value)` / `fv_check_many(checks)`: fields `practice_area`, `client_role`, `status`,\n  `outcome`, `closed_year`, `opened_year`, `relief_sought_by_client`, `term.<key>` (terms in **executed/filed**\n  documents; drafts are reported separately), `issue.<key>` (value `analysed` or `mentioned`).\n- `fv_matter(matter_id)`: the matter's verified card. `fv_doc(path)`: a file's stage (draft vs executed), date, terms.\n\nHow to use them:\n0. **The verifier does not find matters and does not tell you when you have found them all.** Search the DMS\n   exactly as thoroughly as you would without it (questions often need many matters); verification comes after,\n   and a few TRUE verdicts are not a reason to stop searching.\n1. Find candidate matters with your usual search \u2014 all of them.\n2. **Before you list a matter as qualifying, verify each condition of the question for it** (one `fv_check_many` call\n   for the whole candidate list is cheapest). Typical conditions: practice area, outcome (settled \u2260 dismissed), the\n   firm client's role / relief sought, executed vs draft documents, a specific term (an earnout is not a CVR), an\n   issue analysed vs merely mentioned, status/closing year.\n3. FALSE with evidence \u2192 drop the matter or explain in one line why the question still covers it. NOT_FOUND \u2192 the\n   index has no record of it; drop only after reading the matter's key document confirms it is absent.\n   SECONDARY (practice_area) \u2192 the matter belongs to another practice group and only touched this one; a question\n   about \"our <practice> matters\" usually means the group's own (primary) matters.\n   UNKNOWN \u2192 decide from the documents yourself; UNKNOWN is never a reason to drop a matter.\n4. In `response.md`, list only qualifying matters as the answer; do not present non-qualifying matters as part of\n   the answer (if you mention them, label them clearly as excluded).\n\n**Completeness check.** Call `fv_check_complete(conditions, matters)` with the question's conditions and your current\nlist. Each matter in `missing_from_your_list` comes with evidence (file path + quote) for each condition: open that\nfile and add the matter only if the document confirms it (cite the file as evidence). For each matter in\n`listed_but_contradicted`, re-check it in its documents. If the reply warns that the conditions are too broad, add the\nquestion's specific condition and call again. The index can be wrong in both directions, so the documents decide. For\nsuperlative questions (\"most recent\", \"largest\") use it to make sure you compared all candidates.\n",
+ "late_message": "Before you finish: verify the matters in your response.md with the Firm Verifier tools, which are now\navailable to you (they were not shown earlier so they would not change how you searched).\n\n\n\n\nYou also have **verifier tools** built offline from every document in the DMS. They answer narrow questions about a\nmatter or a file with TRUE / FALSE / SECONDARY / NOT_FOUND / UNKNOWN plus evidence (path + verbatim quote):\n\n- `fv_check(matter_id, field, value)` / `fv_check_many(checks)`: fields `practice_area`, `client_role`, `status`,\n  `outcome`, `closed_year`, `opened_year`, `relief_sought_by_client`, `term.<key>` (terms in **executed/filed**\n  documents; drafts are reported separately), `issue.<key>` (value `analysed` or `mentioned`).\n- `fv_matter(matter_id)`: the matter's verified card. `fv_doc(path)`: a file's stage (draft vs executed), date, terms.\n\nHow to use them now:\n0. **The verifier does not find matters and does not tell you when you have found them all.** Search the DMS\n   exactly as thoroughly as you would without it (questions often need many matters); verification comes after,\n   and a few TRUE verdicts are not a reason to stop searching.\n1. Find candidate matters with your usual search \u2014 all of them.\n2. **Before you list a matter as qualifying, verify each condition of the question for it** (one `fv_check_many` call\n   for the whole candidate list is cheapest). Typical conditions: practice area, outcome (settled \u2260 dismissed), the\n   firm client's role / relief sought, executed vs draft documents, a specific term (an earnout is not a CVR), an\n   issue analysed vs merely mentioned, status/closing year.\n3. FALSE with evidence \u2192 drop the matter or explain in one line why the question still covers it. NOT_FOUND \u2192 the\n   index has no record of it; drop only after reading the matter's key document confirms it is absent.\n   SECONDARY (practice_area) \u2192 the matter belongs to another practice group and only touched this one; a question\n   about \"our <practice> matters\" usually means the group's own (primary) matters.\n   UNKNOWN \u2192 decide from the documents yourself; UNKNOWN is never a reason to drop a matter.\n4. In `response.md`, list only qualifying matters as the answer; do not present non-qualifying matters as part of\n   the answer (if you mention them, label them clearly as excluded).\n\nThen update response.md if any matter fails verification (or if a check leads you to a matter you missed), and then end your turn (reply without calling a tool). You will not be asked again.",
+ "late_message_complete": "Before you finish: verify the matters in your response.md with the Firm Verifier tools, which are now\navailable to you (they were not shown earlier so they would not change how you searched).\n\n\n\n\nYou also have **verifier tools** built offline from every document in the DMS. They answer narrow questions about a\nmatter or a file with TRUE / FALSE / SECONDARY / NOT_FOUND / UNKNOWN plus evidence (path + verbatim quote):\n\n- `fv_check(matter_id, field, value)` / `fv_check_many(checks)`: fields `practice_area`, `client_role`, `status`,\n  `outcome`, `closed_year`, `opened_year`, `relief_sought_by_client`, `term.<key>` (terms in **executed/filed**\n  documents; drafts are reported separately), `issue.<key>` (value `analysed` or `mentioned`).\n- `fv_matter(matter_id)`: the matter's verified card. `fv_doc(path)`: a file's stage (draft vs executed), date, terms.\n\nHow to use them now:\n0. **The verifier does not find matters and does not tell you when you have found them all.** Search the DMS\n   exactly as thoroughly as you would without it (questions often need many matters); verification comes after,\n   and a few TRUE verdicts are not a reason to stop searching.\n1. Find candidate matters with your usual search \u2014 all of them.\n2. **Before you list a matter as qualifying, verify each condition of the question for it** (one `fv_check_many` call\n   for the whole candidate list is cheapest). Typical conditions: practice area, outcome (settled \u2260 dismissed), the\n   firm client's role / relief sought, executed vs draft documents, a specific term (an earnout is not a CVR), an\n   issue analysed vs merely mentioned, status/closing year.\n3. FALSE with evidence \u2192 drop the matter or explain in one line why the question still covers it. NOT_FOUND \u2192 the\n   index has no record of it; drop only after reading the matter's key document confirms it is absent.\n   SECONDARY (practice_area) \u2192 the matter belongs to another practice group and only touched this one; a question\n   about \"our <practice> matters\" usually means the group's own (primary) matters.\n   UNKNOWN \u2192 decide from the documents yourself; UNKNOWN is never a reason to drop a matter.\n4. In `response.md`, list only qualifying matters as the answer; do not present non-qualifying matters as part of\n   the answer (if you mention them, label them clearly as excluded).\n\n**Completeness check.** Call `fv_check_complete(conditions, matters)` with the question's conditions and your current\nlist. Each matter in `missing_from_your_list` comes with evidence (file path + quote) for each condition: open that\nfile and add the matter only if the document confirms it (cite the file as evidence). For each matter in\n`listed_but_contradicted`, re-check it in its documents. If the reply warns that the conditions are too broad, add the\nquestion's specific condition and call again. The index can be wrong in both directions, so the documents decide. For\nsuperlative questions (\"most recent\", \"largest\") use it to make sure you compared all candidates.\n\nThen update response.md if any matter fails verification (or if a check leads you to a matter you missed), and then end your turn (reply without calling a tool). You will not be asked again."
+}

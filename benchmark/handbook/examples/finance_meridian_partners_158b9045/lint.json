@@ -1,0 +1,248 @@
+{
+ "summary": {
+  "refs": 463,
+  "ref_ok": 463,
+  "ref_misanchored": 0,
+  "ref_ungrounded": 0,
+  "no_ref": 58,
+  "templates": 39,
+  "tpl_ungrounded": 0,
+  "literal_ungrounded": 0,
+  "bad_template_ref": 0,
+  "grounded_pct": 100.0
+ },
+ "issues": [
+  {
+   "where": "definitions:Date format",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Monetary format",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Sequential IDs",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Name fields",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Notes fields",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Allowed values",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:PO number",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Vendor ID",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:GL Code",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Department Codes",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Entity codes",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Intercompany GL",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Three-Way Match",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Invoice Variance",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Payment Terms",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Hold codes",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Batch Run",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Batch ID",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Wire reference",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Duplicate invoice",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Classification priority",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Processing order",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Exception resolution",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Early payment discount",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:CFO wire approval phrase",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Expense limits",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Vendor deactivation",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Month-end close deadline",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Record retention",
+   "issue": "no_ref"
+  },
+  {
+   "where": "definitions:Escalation medium",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:Raj Patel",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:Maria Santos",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:Marcus Webb",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:Department Manager",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:AP Clerk",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:Approving Manager (recurring agreement)",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:Office Admin",
+   "issue": "no_ref"
+  },
+  {
+   "where": "people:Internal Audit",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:ap.team@meridianpartners.com",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:payroll@meridianpartners.com",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:ap- calendar@meridianpartners.com",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:#accounts-payable",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:#approvals",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:#vendor-management",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:#finance",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:Vendor portal",
+   "issue": "no_ref"
+  },
+  {
+   "where": "channels:Physical mail",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:ap_ledger.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:vendor_master.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:recurring_agreements.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:matchlogYYYY_QN.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:DUPL-[VendorID]-[InvoiceNumber].pdf",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:W9_[VendorName].pdf",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:aging_report.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:exceptionstrackerYYY Y.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:accruals.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:recon_variances.xlsx",
+   "issue": "no_ref"
+  },
+  {
+   "where": "files:batch_YYYY-MM-DD.xlsx",
+   "issue": "no_ref"
+  }
+ ]
+}
